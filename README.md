@@ -11,7 +11,7 @@ Feed URL: https://thevoterthink.github.io/video-jobs-feed/feed.xml
 
 1. `build_feed.py` fetches the sources listed in `config.json`. It keeps titles that match the role list, drops anything outside NYC or remote-US, drops posts older than 30 days, and merges duplicates. When the same job is on two sources, the employer's own listing wins. The item notes the other sources it was found on.
 2. It writes `docs/feed.xml`. It only rewrites the file when something changed.
-3. `.github/workflows/update-feed.yml` runs the script twice a day and commits only when the feed changed.
+3. `.github/workflows/update-feed.yml` runs the script three times a day (morning, midday, evening) and commits only when the feed changed.
 4. GitHub Pages serves the `docs/` folder, which gives the feed its public URL.
 
 `data/state.json` records the date each job was first seen, so dates stay stable between runs. If a source is down on a given run, its jobs from the last run are carried over.

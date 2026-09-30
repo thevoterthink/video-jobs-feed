@@ -2,9 +2,10 @@ name: Update job feed
 
 on:
   schedule:
-    # 11:17 and 21:17 UTC = 7:17 am and 5:17 pm in New York during daylight time
-    # (6:17 am / 4:17 pm in winter). Odd minutes avoid GitHub's busy top of the hour.
-    - cron: "17 11,21 * * *"
+    # 11:17, 16:17 and 21:17 UTC = 7:17 am, 12:17 pm and 5:17 pm in New York during
+    # daylight time (6:17 am / 11:17 am / 4:17 pm in winter). Odd minutes avoid
+    # GitHub's busy top of the hour.
+    - cron: "17 11,16,21 * * *"
   workflow_dispatch: {}   # adds a "Run workflow" button in the Actions tab
 
 permissions:

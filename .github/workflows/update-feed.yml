@@ -1,0 +1,44 @@
+name: Update job feed
+
+on:
+  schedule:
+    # 11:17 and 21:17 UTC = 7:17 am and 5:17 pm in New York during daylight time
+    # (6:17 am / 4:17 pm in winter). Odd minutes avoid GitHub's busy top of the hour.
+    - cron: "17 11,21 * * *"
+  workflow_dispatch: {}   # adds a "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Self-check
+        run: python -m unittest -q
+
+      - name: Build feed
+        run: python build_feed.py
+
+      - name: Commit only if the feed changed
+        run: |
+          if git diff --quiet -- docs/feed.xml; then
+            echo "Feed unchanged. Nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/feed.xml data/state.json
+          git commit -m "Update job feed"
+          git push

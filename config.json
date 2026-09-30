@@ -1,0 +1,249 @@
+{
+  "feed": {
+    "title": "Video Producer Jobs: NYC + Remote",
+    "link": "https://thevoterthink.github.io/video-jobs-feed/",
+    "self_url": "https://thevoterthink.github.io/video-jobs-feed/feed.xml",
+    "description": "Social media video producer, video producer, video editor and motion roles in New York City or remote (US). Starred items are nonprofit, advocacy, civil rights, immigration or Latino-serving organizations.",
+    "max_items": 150,
+    "max_age_days": 30,
+    "remote_only_if_preferred": false,
+    "user_agent": "Mozilla/5.0 (compatible; video-jobs-feed/1.0; +https://github.com/thevoterthink/video-jobs-feed)"
+  },
+  "role_include": [
+    "video",
+    "videographer",
+    "videography",
+    "motion graphics",
+    "motion designer",
+    "motion design",
+    "multimedia producer",
+    "multimedia specialist",
+    "multimedia production",
+    "multimedia journalist",
+    "multimedia content",
+    "post-production",
+    "post production",
+    "social media producer",
+    "social producer",
+    "short-form",
+    "reels"
+  ],
+  "role_exclude": [
+    "video game",
+    "video support",
+    "videoconferenc",
+    "video relay",
+    "video interpret",
+    "interpreter",
+    "engineer",
+    "developer",
+    "technician",
+    "technologist",
+    "sales",
+    "account executive",
+    "intern",
+    "internship",
+    "data ",
+    "scientist",
+    "researcher",
+    "ai trainer",
+    "annotat",
+    "moderator",
+    "reviewer",
+    "surveillance",
+    "security",
+    "teacher",
+    "professor",
+    "faculty",
+    "instructor",
+    "lecturer",
+    "nurse"
+  ],
+  "nyc_terms": [
+    "new york, ny",
+    "new york, new york",
+    "new york city",
+    "nyc",
+    "manhattan",
+    "brooklyn",
+    "bronx",
+    "queens",
+    "staten island",
+    "long island city",
+    "astoria",
+    "flushing",
+    "jamaica, ny",
+    "bayside",
+    "forest hills",
+    "jackson heights",
+    "elmhurst",
+    "riverdale, ny",
+    "usa-ny-new york"
+  ],
+  "us_terms": [
+    "united states",
+    "usa",
+    "u.s.",
+    "us only",
+    "us-based",
+    "anywhere",
+    "worldwide",
+    "north america",
+    "americas",
+    "remote - us",
+    "remote, us",
+    "remote us"
+  ],
+  "non_us_terms": [
+    "united kingdom",
+    "uk",
+    "london",
+    "canada",
+    "toronto",
+    "india",
+    "philippines",
+    "europe",
+    "emea",
+    "apac",
+    "latam",
+    "mexico",
+    "brazil",
+    "australia",
+    "germany",
+    "france",
+    "spain",
+    "ireland",
+    "netherlands",
+    "armenia",
+    "nigeria",
+    "south africa",
+    "m/w/d",
+    "singapore",
+    "japan",
+    "pakistan",
+    "argentina",
+    "colombia"
+  ],
+  "preferred_keywords": [
+    "nonprofit",
+    "non-profit",
+    "not-for-profit",
+    "501(c)",
+    "advocacy",
+    "civil rights",
+    "civil liberties",
+    "human rights",
+    "social justice",
+    "racial justice",
+    "immigra",
+    "refugee",
+    "asylum",
+    "migrant",
+    "latino",
+    "latina",
+    "latinx",
+    "latine",
+    "hispanic",
+    "public media",
+    "public radio",
+    "public broadcasting",
+    "foundation",
+    "coalition",
+    "legal defense",
+    "legal aid"
+  ],
+  "exclude_orgs": [],
+  "org_aliases": {
+    "aclu national office": "aclu",
+    "american civil liberties union": "aclu",
+    "planned parenthood federation of america": "planned parenthood",
+    "human rights watch hrw": "human rights watch"
+  },
+  "sources": {
+    "idealist": {
+      "enabled": true,
+      "nyc_pages": [
+        "media-jobs-new-york-ny",
+        "social-media-jobs-new-york-ny",
+        "communications-jobs-new-york-ny",
+        "marketing-jobs-new-york-ny"
+      ],
+      "national_pages": [
+        "media-jobs",
+        "communications-jobs"
+      ],
+      "pages_per_slug": 1
+    },
+    "higheredjobs": {
+      "enabled": true,
+      "categories": {
+        "175": "Multimedia and Audiovisual",
+        "37": "Communications and Marketing",
+        "17": "Broadcasting, Radio and TV"
+      }
+    },
+    "himalayas": {
+      "enabled": true,
+      "queries": [
+        "video producer",
+        "video editor",
+        "videographer",
+        "motion designer",
+        "social video",
+        "multimedia producer"
+      ]
+    },
+    "remotive": {
+      "enabled": true,
+      "queries": [
+        "video",
+        "motion designer"
+      ]
+    },
+    "remoteok": {
+      "enabled": true,
+      "tags": [
+        "video",
+        "video editor"
+      ]
+    },
+    "greenhouse": {
+      "enabled": true,
+      "boards": {
+        "aclu": "ACLU",
+        "aclunc": "ACLU of Northern California",
+        "southernpovertylawcenter": "Southern Poverty Law Center",
+        "humanrightswatch": "Human Rights Watch",
+        "unidosus": "UnidosUS",
+        "democracyforward": "Democracy Forward",
+        "propublica": "ProPublica",
+        "khanacademy": "Khan Academy",
+        "wikimedia": "Wikimedia Foundation",
+        "donorschoose": "DonorsChoose",
+        "codeforamerica": "Code for America",
+        "evergreenaction": "Evergreen Action"
+      }
+    },
+    "lever": {
+      "enabled": true,
+      "boards": {
+        "ppfa": "Planned Parenthood Federation of America",
+        "workingfamilies": "Working Families Party",
+        "supportkind": "Kids in Need of Defense (KIND)",
+        "thetrevorproject": "The Trevor Project",
+        "charitywater": "charity: water",
+        "commoncause": "Common Cause",
+        "sierraclub": "Sierra Club",
+        "girlswhocode": "Girls Who Code",
+        "representus": "RepresentUs"
+      }
+    },
+    "bamboohr": {
+      "enabled": true,
+      "boards": {
+        "nycballet": "New York City Ballet",
+        "bricartsmedia": "BRIC Arts Media"
+      }
+    }
+  }
+}

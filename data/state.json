@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "JerseySTEM",
+   "posted": "2026-09-30T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "MKTG312: Video Editor",
+   "url": "https://himalayas.app/companies/jerseystem/jobs/mktg312-video-editor",
+   "where": "Remote (US)"
+  },
+  {
    "location": "New York, NY",
    "mission": false,
    "org": "New York University",
@@ -43,16 +53,6 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "My Amazon Guy",
-   "posted": "2026-09-27T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Video Editor",
-   "url": "https://himalayas.app/companies/my-amazon-guy/jobs/video-editor",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
    "org": "Info Resume Edge",
    "posted": "2026-09-27T12:00:00+00:00",
    "source": "Himalayas",
@@ -78,16 +78,6 @@
    "source": "Himalayas",
    "title": "AI Social Video Producer (TEMP)",
    "url": "https://himalayas.app/companies/the-shade-room/jobs/ai-social-video-producer-temp",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States + 5 other countries)",
-   "mission": false,
-   "org": "Liquid Death",
-   "posted": "2026-09-25T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Senior Video Producer (Contract)",
-   "url": "https://himalayas.app/companies/liquid-death/jobs/senior-video-producer-contract",
    "where": "Remote (US)"
   },
   {
@@ -211,6 +201,16 @@
    "where": "Remote (US)"
   },
   {
+   "location": "Remote (United States + 1 other countries)",
+   "mission": false,
+   "org": "LumiMeds",
+   "posted": "2026-09-16T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video Editor (Short-form social, paid ads, UGC)",
+   "url": "https://himalayas.app/companies/lumimeds/jobs/video-editor-short-form-social-paid-ads-ugc",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "iCrossing",
@@ -228,6 +228,16 @@
    "source": "Himalayas",
    "title": "Video Content Producer",
    "url": "https://himalayas.app/companies/traceair-technologies/jobs/video-content-producer",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Wattpad",
+   "posted": "2026-09-11T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "[WEBTOON] Social Media Script Writer/Video Editor (Freelancer)",
+   "url": "https://himalayas.app/companies/wattpad/jobs/webtoon-social-media-script-writer-video-editor-freelancer",
    "where": "Remote (US)"
   },
   {
@@ -281,6 +291,10 @@
   "lead assistant video editor|block by block creative": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-17T12:00:00+00:00"
+  },
+  "mktg312 video editor|jerseystem": {
+   "first_seen": "2026-10-01T12:00:00+00:00",
+   "posted": "2026-09-30T12:00:00+00:00"
   },
   "motion designer|active theory": {
    "first_seen": "2026-09-30T12:00:00+00:00",
@@ -338,6 +352,10 @@
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-13T12:00:00+00:00"
   },
+  "video editor|lumimeds": {
+   "first_seen": "2026-10-01T12:00:00+00:00",
+   "posted": "2026-09-16T12:00:00+00:00"
+  },
   "video editor|more perfect union action": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-27T12:00:00+00:00"
@@ -373,6 +391,10 @@
   "videographer|get engaged": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-20T12:00:00+00:00"
+  },
+  "webtoon social media script writer video editor|wattpad": {
+   "first_seen": "2026-10-01T12:00:00+00:00",
+   "posted": "2026-09-11T12:00:00+00:00"
   }
  }
 }

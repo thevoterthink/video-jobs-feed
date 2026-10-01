@@ -3,6 +3,16 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "General Dynamics Information Technology",
+   "posted": "2026-10-01T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Multimedia Specialist",
+   "url": "https://himalayas.app/companies/general-dynamics-information-technology/jobs/multimedia-specialist",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "JerseySTEM",
    "posted": "2026-09-30T12:00:00+00:00",
    "source": "Himalayas",
@@ -307,6 +317,10 @@
   "multimedia specialist|aptive": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-27T12:00:00+00:00"
+  },
+  "multimedia specialist|general dynamics information technology": {
+   "first_seen": "2026-10-01T12:00:00+00:00",
+   "posted": "2026-10-01T12:00:00+00:00"
   },
   "remote full time videographer boston|brafton": {
    "first_seen": "2026-09-30T12:00:00+00:00",

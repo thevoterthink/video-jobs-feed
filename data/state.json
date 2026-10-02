@@ -23,6 +23,16 @@
   {
    "location": "Remote (anywhere)",
    "mission": false,
+   "org": "Conexwest",
+   "posted": "2026-10-02T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Social Media Content Creator & Video Editor",
+   "url": "https://himalayas.app/companies/conexwest/jobs/social-media-content-creator-video-editor-3685653955",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (anywhere)",
+   "mission": false,
    "org": "Benrey",
    "posted": "2026-10-02T12:00:00+00:00",
    "source": "Himalayas",
@@ -371,6 +381,10 @@
   "senior video producer|liquid death": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-25T12:00:00+00:00"
+  },
+  "social media content creator and video editor|conexwest": {
+   "first_seen": "2026-10-02T12:00:00+00:00",
+   "posted": "2026-10-02T12:00:00+00:00"
   },
   "social video producer and editor|apex for youth": {
    "first_seen": "2026-09-30T12:00:00+00:00",

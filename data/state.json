@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "Remote (anywhere)",
+   "mission": false,
+   "org": "Benrey",
+   "posted": "2026-10-02T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Motion Designer",
+   "url": "https://himalayas.app/companies/benrey/jobs/motion-designer",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "General Dynamics Information Technology",
@@ -309,6 +319,10 @@
   "motion designer|active theory": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-20T12:00:00+00:00"
+  },
+  "motion designer|benrey": {
+   "first_seen": "2026-10-02T12:00:00+00:00",
+   "posted": "2026-10-02T12:00:00+00:00"
   },
   "multimedia content specialist|easy outsource": {
    "first_seen": "2026-09-30T12:00:00+00:00",

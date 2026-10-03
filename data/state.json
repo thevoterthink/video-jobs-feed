@@ -43,11 +43,11 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "General Dynamics Information Technology",
-   "posted": "2026-10-01T12:00:00+00:00",
+   "org": "Fortray Global Service Limited",
+   "posted": "2026-10-02T12:00:00+00:00",
    "source": "Himalayas",
-   "title": "Multimedia Specialist",
-   "url": "https://himalayas.app/companies/general-dynamics-information-technology/jobs/multimedia-specialist",
+   "title": "Animator \u2013 Video Content & Ad Creatives (Remote, Full-Time)",
+   "url": "https://himalayas.app/companies/fortray-global-service-limited/jobs/animator-video-content-ad-creatives-remote-full-time",
    "where": "Remote (US)"
   },
   {
@@ -309,22 +309,16 @@
    "title": "Video Producer, On With Kara Swisher",
    "url": "https://himalayas.app/companies/vox-media/jobs/video-producer-on-with-kara-swisher",
    "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "PermitFlow",
-   "posted": "2026-09-03T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Video & Content Producer",
-   "url": "https://himalayas.app/companies/permitflow/jobs/video-content-producer",
-   "where": "Remote (US)"
   }
  ],
  "seen": {
   "ai social video producer|shade room": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-27T12:00:00+00:00"
+  },
+  "animator video content and ad creatives|fortray global service limited": {
+   "first_seen": "2026-10-03T12:00:00+00:00",
+   "posted": "2026-10-02T12:00:00+00:00"
   },
   "communications broadcast and multimedia production manager|queensborough community college": {
    "first_seen": "2026-09-30T12:00:00+00:00",

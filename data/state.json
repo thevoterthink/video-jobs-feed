@@ -3,6 +3,16 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "The Sociable Society",
+   "posted": "2026-10-04T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Social Media Video Editor",
+   "url": "https://himalayas.app/companies/the-sociable-society/jobs/social-media-video-editor",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "Engine Systems",
    "posted": "2026-10-02T12:00:00+00:00",
    "source": "Himalayas",
@@ -283,6 +293,16 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "AlphaSense",
+   "posted": "2026-09-13T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Senior Motion Designer",
+   "url": "https://himalayas.app/companies/alphasense/jobs/senior-motion-designer",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "Wattpad",
    "posted": "2026-09-11T12:00:00+00:00",
    "source": "Himalayas",
@@ -354,6 +374,10 @@
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-25T12:00:00+00:00"
   },
+  "senior motion designer|alphasense": {
+   "first_seen": "2026-10-04T12:00:00+00:00",
+   "posted": "2026-09-13T12:00:00+00:00"
+  },
   "senior multimedia specialist|mem": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-28T12:00:00+00:00"
@@ -369,6 +393,10 @@
   "social media content creator and video editor|conexwest": {
    "first_seen": "2026-10-02T12:00:00+00:00",
    "posted": "2026-10-02T12:00:00+00:00"
+  },
+  "social media video editor|sociable society": {
+   "first_seen": "2026-10-04T12:00:00+00:00",
+   "posted": "2026-10-04T12:00:00+00:00"
   },
   "social video producer and editor|apex for youth": {
    "first_seen": "2026-09-30T12:00:00+00:00",

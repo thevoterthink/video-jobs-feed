@@ -13,6 +13,16 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "CACI International Inc",
+   "posted": "2026-10-05T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Trainer/Videographer \u2013 Level III",
+   "url": "https://himalayas.app/companies/caci-international-inc/jobs/trainer-videographer-level-iii",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "The Sociable Society",
    "posted": "2026-10-04T12:00:00+00:00",
    "source": "Himalayas",
@@ -419,6 +429,10 @@
   "staff graphic designer and videographer united states remote|info resume edge": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-27T12:00:00+00:00"
+  },
+  "trainer videographer level iii|caci international": {
+   "first_seen": "2026-10-05T12:00:00+00:00",
+   "posted": "2026-10-05T12:00:00+00:00"
   },
   "vertical video supervising producer|more perfect union action": {
    "first_seen": "2026-09-30T12:00:00+00:00",

@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "New York City, United States",
+   "mission": true,
+   "org": "ProPublica",
+   "posted": "2026-10-05T12:00:00-04:00",
+   "source": "Greenhouse",
+   "title": "Video Editor and Motion Designer, Temporary",
+   "url": "https://job-boards.greenhouse.io/propublica/jobs/4718540006",
+   "where": "NYC"
+  },
+  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "The Sociable Society",
@@ -425,6 +435,10 @@
   "video content producer|traceair technologies": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-13T12:00:00+00:00"
+  },
+  "video editor and motion designer temporary|propublica": {
+   "first_seen": "2026-10-05T12:00:00+00:00",
+   "posted": "2026-10-05T12:00:00-04:00"
   },
   "video editor|autohdr": {
    "first_seen": "2026-10-02T12:00:00+00:00",

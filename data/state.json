@@ -1,6 +1,36 @@
 {
  "items": [
   {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Floowi",
+   "posted": "2026-10-08T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video Editor",
+   "url": "https://himalayas.app/companies/floowi/jobs/video-editor-4424824843",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (anywhere)",
+   "mission": false,
+   "org": "Seez",
+   "posted": "2026-10-08T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Motion Designer / Video Editor (Contract)",
+   "url": "https://himalayas.app/companies/seez/jobs/motion-designer-video-editor-contract",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "RELX",
+   "posted": "2026-10-08T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Bilingual (English/Spanish) Video Producer/Writer/Director",
+   "url": "https://himalayas.app/companies/relx/jobs/bilingual-english-spanish-video-producer-writer-director",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote (United States + 2 other countries)",
    "mission": false,
    "org": "Electrify Video Partners",
@@ -98,16 +128,6 @@
    "source": "Himalayas",
    "title": "Animator \u2013 Video Content & Ad Creatives (Remote, Full-Time)",
    "url": "https://himalayas.app/companies/fortray-global-service-limited/jobs/animator-video-content-ad-creatives-remote-full-time",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "JerseySTEM",
-   "posted": "2026-09-30T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "MKTG312: Video Editor",
-   "url": "https://himalayas.app/companies/jerseystem/jobs/mktg312-video-editor",
    "where": "Remote (US)"
   },
   {
@@ -364,6 +384,10 @@
    "first_seen": "2026-10-07T12:00:00+00:00",
    "posted": "2026-10-07T12:00:00+00:00"
   },
+  "bilingual video producer writer director|relx": {
+   "first_seen": "2026-10-08T12:00:00+00:00",
+   "posted": "2026-10-08T12:00:00+00:00"
+  },
   "communications broadcast and multimedia production manager|queensborough community college": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-23T12:00:00+00:00"
@@ -387,6 +411,10 @@
   "mktg312 video editor|jerseystem": {
    "first_seen": "2026-10-01T12:00:00+00:00",
    "posted": "2026-09-30T12:00:00+00:00"
+  },
+  "motion designer video editor|seez": {
+   "first_seen": "2026-10-08T12:00:00+00:00",
+   "posted": "2026-10-08T12:00:00+00:00"
   },
   "motion designer|active theory": {
    "first_seen": "2026-09-30T12:00:00+00:00",
@@ -475,6 +503,10 @@
   "video editor|autohdr": {
    "first_seen": "2026-10-02T12:00:00+00:00",
    "posted": "2026-10-02T12:00:00+00:00"
+  },
+  "video editor|floowi": {
+   "first_seen": "2026-10-08T12:00:00+00:00",
+   "posted": "2026-10-08T12:00:00+00:00"
   },
   "video editor|lumimeds": {
    "first_seen": "2026-10-01T12:00:00+00:00",

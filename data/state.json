@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "Remote (United States + 2 other countries)",
+   "mission": false,
+   "org": "Electrify Video Partners",
+   "posted": "2026-10-09T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Ad Creative Video Editor, The Rundown",
+   "url": "https://himalayas.app/companies/electrify-video-partners/jobs/ad-creative-video-editor-the-rundown",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "Floowi",
@@ -329,9 +339,23 @@
    "title": "Video Content Producer",
    "url": "https://himalayas.app/companies/traceair-technologies/jobs/video-content-producer",
    "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Wattpad",
+   "posted": "2026-09-11T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "[WEBTOON] Social Media Script Writer/Video Editor (Freelancer)",
+   "url": "https://himalayas.app/companies/wattpad/jobs/webtoon-social-media-script-writer-video-editor-freelancer",
+   "where": "Remote (US)"
   }
  ],
  "seen": {
+  "ad creative video editor rundown|electrify video partners": {
+   "first_seen": "2026-10-09T12:00:00+00:00",
+   "posted": "2026-10-09T12:00:00+00:00"
+  },
   "ai social video producer|shade room": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-27T12:00:00+00:00"

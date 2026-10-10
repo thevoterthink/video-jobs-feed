@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Elsevier",
+   "posted": "2026-10-10T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Bilingual (English/Spanish) Video Producer/Writer/Director",
+   "url": "https://himalayas.app/companies/elsevier/jobs/bilingual-english-spanish-video-producer-writer-director",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote (United States + 2 other countries)",
    "mission": false,
    "org": "Electrify Video Partners",
@@ -78,6 +88,16 @@
    "source": "Himalayas",
    "title": "Trainer/Videographer \u2013 Level III",
    "url": "https://himalayas.app/companies/caci-international-inc/jobs/trainer-videographer-level-iii",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "The Sociable Society",
+   "posted": "2026-10-04T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Social Media Video Editor",
+   "url": "https://himalayas.app/companies/the-sociable-society/jobs/social-media-video-editor",
    "where": "Remote (US)"
   },
   {
@@ -329,26 +349,6 @@
    "title": "Video Project Coordinator",
    "url": "https://himalayas.app/companies/icrossing/jobs/video-project-coordinator",
    "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "TraceAir Technologies",
-   "posted": "2026-09-13T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Video Content Producer",
-   "url": "https://himalayas.app/companies/traceair-technologies/jobs/video-content-producer",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Wattpad",
-   "posted": "2026-09-11T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "[WEBTOON] Social Media Script Writer/Video Editor (Freelancer)",
-   "url": "https://himalayas.app/companies/wattpad/jobs/webtoon-social-media-script-writer-video-editor-freelancer",
-   "where": "Remote (US)"
   }
  ],
  "seen": {
@@ -367,6 +367,10 @@
   "associate video producer|athletic": {
    "first_seen": "2026-10-07T12:00:00+00:00",
    "posted": "2026-10-07T12:00:00+00:00"
+  },
+  "bilingual video producer writer director|elsevier": {
+   "first_seen": "2026-10-10T12:00:00+00:00",
+   "posted": "2026-10-10T12:00:00+00:00"
   },
   "bilingual video producer writer director|relx": {
    "first_seen": "2026-10-08T12:00:00+00:00",

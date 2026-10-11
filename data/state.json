@@ -3,6 +3,16 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "Zillow Group",
+   "posted": "2026-10-10T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video Content Producer",
+   "url": "https://himalayas.app/companies/zillow-group/jobs/video-content-producer",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "Vox Media",
    "posted": "2026-10-10T12:00:00+00:00",
    "source": "Himalayas",
@@ -108,16 +118,6 @@
    "source": "Himalayas",
    "title": "Trainer/Videographer \u2013 Level III",
    "url": "https://himalayas.app/companies/caci-international-inc/jobs/trainer-videographer-level-iii",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "The Sociable Society",
-   "posted": "2026-10-04T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Social Media Video Editor",
-   "url": "https://himalayas.app/companies/the-sociable-society/jobs/social-media-video-editor",
    "where": "Remote (US)"
   },
   {
@@ -363,11 +363,11 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "iCrossing",
-   "posted": "2026-09-13T12:00:00+00:00",
+   "org": "Wattpad",
+   "posted": "2026-09-11T12:00:00+00:00",
    "source": "Himalayas",
-   "title": "Video Project Coordinator",
-   "url": "https://himalayas.app/companies/icrossing/jobs/video-project-coordinator",
+   "title": "[WEBTOON] Social Media Script Writer/Video Editor (Freelancer)",
+   "url": "https://himalayas.app/companies/wattpad/jobs/webtoon-social-media-script-writer-video-editor-freelancer",
    "where": "Remote (US)"
   }
  ],
@@ -511,6 +511,10 @@
   "video content producer|traceair technologies": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-13T12:00:00+00:00"
+  },
+  "video content producer|zillow group": {
+   "first_seen": "2026-10-11T12:00:00+00:00",
+   "posted": "2026-10-10T12:00:00+00:00"
   },
   "video editor and motion designer temporary|propublica": {
    "first_seen": "2026-10-05T12:00:00+00:00",

@@ -3,6 +3,26 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "General Dynamics Information Technology",
+   "posted": "2026-10-14T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Senior Technical Training Specialist (Videographer)",
+   "url": "https://himalayas.app/companies/general-dynamics-information-technology/jobs/senior-technical-training-specialist-videographer",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (Anywhere)",
+   "mission": false,
+   "org": "BlueTuskr",
+   "posted": "2026-10-13T12:00:00+00:00",
+   "source": "Remote OK",
+   "title": "Graphic Designer & Video Editor",
+   "url": "https://remoteOK.com/remote-jobs/remote-graphic-designer-video-editor-bluetuskr-1137507",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "Zabota LLC",
    "posted": "2026-10-12T12:00:00+00:00",
    "source": "Himalayas",
@@ -416,6 +436,10 @@
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-22T12:00:00+00:00"
   },
+  "graphic designer and video editor|bluetuskr": {
+   "first_seen": "2026-10-14T12:00:00+00:00",
+   "posted": "2026-10-13T12:00:00+00:00"
+  },
   "lead assistant video editor|block by block creative": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-17T12:00:00+00:00"
@@ -463,6 +487,10 @@
   "senior multimedia specialist|mem": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-28T12:00:00+00:00"
+  },
+  "senior technical training specialist|general dynamics information technology": {
+   "first_seen": "2026-10-14T12:00:00+00:00",
+   "posted": "2026-10-14T12:00:00+00:00"
   },
   "senior video producer|intapp": {
    "first_seen": "2026-09-30T12:00:00+00:00",

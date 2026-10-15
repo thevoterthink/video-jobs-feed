@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "Remote (United States + 31 other countries)",
+   "mission": false,
+   "org": "CoinPoker",
+   "posted": "2026-10-14T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video Producer",
+   "url": "https://himalayas.app/companies/coinpoker/jobs/video-producer",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "General Dynamics Information Technology",
@@ -168,16 +178,6 @@
    "source": "Himalayas",
    "title": "Video Editor",
    "url": "https://himalayas.app/companies/autohdr/jobs/video-editor",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (anywhere)",
-   "mission": false,
-   "org": "Conexwest",
-   "posted": "2026-10-02T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Social Media Content Creator & Video Editor",
-   "url": "https://himalayas.app/companies/conexwest/jobs/social-media-content-creator-video-editor-3685653955",
    "where": "Remote (US)"
   },
   {
@@ -583,6 +583,10 @@
   "video producer on with kara swisher|vox media": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-04T12:00:00+00:00"
+  },
+  "video producer|coinpoker": {
+   "first_seen": "2026-10-15T12:00:00+00:00",
+   "posted": "2026-10-14T12:00:00+00:00"
   },
   "video producer|engine systems": {
    "first_seen": "2026-10-02T12:00:00+00:00",

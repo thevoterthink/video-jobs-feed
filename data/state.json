@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Petlab Co.",
+   "posted": "2026-10-15T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video Editor and Producer (AI & Performance Ads) Remote in USA",
+   "url": "https://himalayas.app/companies/petlab-co/jobs/video-editor-and-producer-ai-performance-ads-remote-in-usa-4045461277",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote (United States + 31 other countries)",
    "mission": false,
    "org": "CoinPoker",
@@ -551,6 +561,10 @@
   "video editor and motion designer temporary|propublica": {
    "first_seen": "2026-10-05T12:00:00+00:00",
    "posted": "2026-10-05T12:00:00-04:00"
+  },
+  "video editor and producer remote in usa|petlab": {
+   "first_seen": "2026-10-15T12:00:00+00:00",
+   "posted": "2026-10-15T12:00:00+00:00"
   },
   "video editor|autohdr": {
    "first_seen": "2026-10-02T12:00:00+00:00",

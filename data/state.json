@@ -3,11 +3,21 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "Petlab Co.",
-   "posted": "2026-10-15T12:00:00+00:00",
+   "org": "Recom",
+   "posted": "2026-10-16T12:00:00+00:00",
    "source": "Himalayas",
-   "title": "Video Editor and Producer (AI & Performance Ads) Remote in USA",
-   "url": "https://himalayas.app/companies/petlab-co/jobs/video-editor-and-producer-ai-performance-ads-remote-in-usa-4045461277",
+   "title": "Videographer and Video Editor",
+   "url": "https://himalayas.app/companies/recom/jobs/videographer-and-video-editor",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Gannett",
+   "posted": "2026-10-16T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Associate Video Producer",
+   "url": "https://himalayas.app/companies/gannett/jobs/associate-video-producer",
    "where": "Remote (US)"
   },
   {
@@ -198,16 +208,6 @@
    "source": "Himalayas",
    "title": "Motion Designer",
    "url": "https://himalayas.app/companies/benrey/jobs/motion-designer",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Fortray Global Service Limited",
-   "posted": "2026-10-02T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Animator \u2013 Video Content & Ad Creatives (Remote, Full-Time)",
-   "url": "https://himalayas.app/companies/fortray-global-service-limited/jobs/animator-video-content-ad-creatives-remote-full-time",
    "where": "Remote (US)"
   },
   {
@@ -418,6 +418,10 @@
    "first_seen": "2026-10-07T12:00:00+00:00",
    "posted": "2026-10-07T12:00:00+00:00"
   },
+  "associate video producer|gannett": {
+   "first_seen": "2026-10-16T12:00:00+00:00",
+   "posted": "2026-10-16T12:00:00+00:00"
+  },
   "bilingual video producer writer director|elsevier": {
    "first_seen": "2026-10-10T12:00:00+00:00",
    "posted": "2026-10-10T12:00:00+00:00"
@@ -613,6 +617,10 @@
   "video project coordinator|icrossing": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-13T12:00:00+00:00"
+  },
+  "videographer and video editor|recom": {
+   "first_seen": "2026-10-16T12:00:00+00:00",
+   "posted": "2026-10-16T12:00:00+00:00"
   },
   "videographer video editor|ck funded": {
    "first_seen": "2026-09-30T12:00:00+00:00",

@@ -3,6 +3,16 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "BluZinc",
+   "posted": "2026-10-18T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Social Media Specialist Video Editor",
+   "url": "https://himalayas.app/companies/bluzinc/jobs/social-media-specialist-video-editor",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "Recom",
    "posted": "2026-10-16T12:00:00+00:00",
    "source": "Himalayas",
@@ -409,16 +419,6 @@
    "title": "Motion Designer",
    "url": "https://himalayas.app/companies/active-theory/jobs/motion-designer",
    "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Wattpad",
-   "posted": "2026-09-11T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "[WEBTOON] Social Media Script Writer/Video Editor (Freelancer)",
-   "url": "https://himalayas.app/companies/wattpad/jobs/webtoon-social-media-script-writer-video-editor-freelancer",
-   "where": "Remote (US)"
   }
  ],
  "seen": {
@@ -537,6 +537,10 @@
   "social media content creator and video editor|conexwest": {
    "first_seen": "2026-10-02T12:00:00+00:00",
    "posted": "2026-10-02T12:00:00+00:00"
+  },
+  "social media specialist video editor|bluzinc": {
+   "first_seen": "2026-10-18T12:00:00+00:00",
+   "posted": "2026-10-18T12:00:00+00:00"
   },
   "social media video editor|sociable society": {
    "first_seen": "2026-10-04T12:00:00+00:00",

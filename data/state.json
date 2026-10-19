@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "location": "Remote, Anywhere",
+   "mission": true,
+   "org": "Global Culture Network",
+   "posted": "2026-10-19T12:00:00+00:00",
+   "source": "Idealist",
+   "title": "Creative Content & Multimedia Production Specialist",
+   "url": "https://www.idealist.org/en/business-job/c351889508b9457996939094ee147966-creative-content-multimedia-production-specialist-global-culture-network-abuja",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Penn State University",
+   "posted": "2026-10-19T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Videographer \u2013 Lion Health Lab (Part-Time, Remote)",
+   "url": "https://himalayas.app/companies/penn-state-university/jobs/videographer-lion-health-lab-part-time-remote-5874894958?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "BluZinc",
@@ -458,6 +478,10 @@
    "first_seen": "2026-10-10T12:00:00+00:00",
    "posted": "2026-10-10T12:00:00+00:00"
   },
+  "creative content and multimedia production specialist|global culture network": {
+   "first_seen": "2026-10-19T12:00:00+00:00",
+   "posted": "2026-10-19T12:00:00+00:00"
+  },
   "director video production|planned parenthood": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-23T12:00:00+00:00"
@@ -645,6 +669,10 @@
   "videographer and video editor|recom": {
    "first_seen": "2026-10-16T12:00:00+00:00",
    "posted": "2026-10-16T12:00:00+00:00"
+  },
+  "videographer lion health lab|penn state university": {
+   "first_seen": "2026-10-19T12:00:00+00:00",
+   "posted": "2026-10-19T12:00:00+00:00"
   },
   "videographer video editor|ck funded": {
    "first_seen": "2026-09-30T12:00:00+00:00",

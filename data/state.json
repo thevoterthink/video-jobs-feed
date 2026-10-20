@@ -1,13 +1,23 @@
 {
  "items": [
   {
-   "location": "Remote, Anywhere",
-   "mission": true,
-   "org": "Global Culture Network",
-   "posted": "2026-10-19T12:00:00+00:00",
-   "source": "Idealist",
-   "title": "Creative Content & Multimedia Production Specialist",
-   "url": "https://www.idealist.org/en/business-job/c351889508b9457996939094ee147966-creative-content-multimedia-production-specialist-global-culture-network-abuja",
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "MEAWW",
+   "posted": "2026-10-20T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video Producer - MEAWW News/McGill",
+   "url": "https://himalayas.app/companies/meaww/jobs/video-producer-meaww-news-mcgill?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "EnthuZiastic",
+   "posted": "2026-10-20T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video Editor - Remote Job",
+   "url": "https://himalayas.app/companies/enthuziastic/jobs/video-editor-remote-job?utm_source=api",
    "where": "Remote (US)"
   },
   {
@@ -399,26 +409,6 @@
    "title": "Videographer / Video Editor",
    "url": "https://himalayas.app/companies/ck-funded/jobs/videographer-video-editor?utm_source=api",
    "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Gannett",
-   "posted": "2026-09-20T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Social Video Specialist",
-   "url": "https://himalayas.app/companies/gannett/jobs/social-video-specialist?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Active Theory",
-   "posted": "2026-09-20T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Motion Designer",
-   "url": "https://himalayas.app/companies/active-theory/jobs/motion-designer?utm_source=api",
-   "where": "Remote (US)"
   }
  ],
  "seen": {
@@ -598,6 +588,10 @@
    "first_seen": "2026-10-15T12:00:00+00:00",
    "posted": "2026-10-15T12:00:00+00:00"
   },
+  "video editor remote job|enthuziastic": {
+   "first_seen": "2026-10-20T12:00:00+00:00",
+   "posted": "2026-10-20T12:00:00+00:00"
+  },
   "video editor|autohdr": {
    "first_seen": "2026-10-02T12:00:00+00:00",
    "posted": "2026-10-02T12:00:00+00:00"
@@ -625,6 +619,10 @@
   "video editor|wow remote teams": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-22T12:00:00+00:00"
+  },
+  "video producer meaww news mcgill|meaww": {
+   "first_seen": "2026-10-20T12:00:00+00:00",
+   "posted": "2026-10-20T12:00:00+00:00"
   },
   "video producer on with kara swisher|vox media": {
    "first_seen": "2026-09-30T12:00:00+00:00",

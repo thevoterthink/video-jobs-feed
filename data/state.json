@@ -23,6 +23,16 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "MEAWW",
+   "posted": "2026-10-19T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video Producer - TDN",
+   "url": "https://himalayas.app/companies/meaww/jobs/video-producer-tdn?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "BluZinc",
    "posted": "2026-10-18T12:00:00+00:00",
    "source": "Himalayas",
@@ -341,16 +351,6 @@
    "where": "NYC"
   },
   {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Hindu American Foundation",
-   "posted": "2026-09-23T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Video Content Producer",
-   "url": "https://himalayas.app/companies/hindu-american-foundation/jobs/video-content-producer?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
    "location": "New York, NY (hybrid), US",
    "mission": true,
    "org": "Planned Parenthood Federation of America",
@@ -398,26 +398,6 @@
    "source": "Himalayas",
    "title": "Videographer / Video Editor",
    "url": "https://himalayas.app/companies/ck-funded/jobs/videographer-video-editor?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Easy Outsource",
-   "posted": "2026-09-21T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Multimedia Content Specialist",
-   "url": "https://himalayas.app/companies/easy-outsource/jobs/multimedia-content-specialist?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Get Engaged",
-   "posted": "2026-09-20T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Videographer",
-   "url": "https://himalayas.app/companies/get-engaged/jobs/videographer?utm_source=api",
    "where": "Remote (US)"
   },
   {
@@ -649,6 +629,10 @@
   "video producer on with kara swisher|vox media": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-04T12:00:00+00:00"
+  },
+  "video producer tdn|meaww": {
+   "first_seen": "2026-10-20T12:00:00+00:00",
+   "posted": "2026-10-19T12:00:00+00:00"
   },
   "video producer|coinpoker": {
    "first_seen": "2026-10-15T12:00:00+00:00",

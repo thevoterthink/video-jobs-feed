@@ -3,6 +3,16 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "Communitas International",
+   "posted": "2026-10-20T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Videographer",
+   "url": "https://himalayas.app/companies/communitas-international/jobs/videographer-9778648418?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "MEAWW",
    "posted": "2026-10-20T12:00:00+00:00",
    "source": "Himalayas",
@@ -659,6 +669,10 @@
   "videographer video editor|ck funded": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-21T12:00:00+00:00"
+  },
+  "videographer|communitas international": {
+   "first_seen": "2026-10-20T12:00:00+00:00",
+   "posted": "2026-10-20T12:00:00+00:00"
   },
   "videographer|get engaged": {
    "first_seen": "2026-09-30T12:00:00+00:00",

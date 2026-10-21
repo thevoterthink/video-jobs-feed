@@ -333,16 +333,6 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "Aptive",
-   "posted": "2026-09-27T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Multimedia Specialist",
-   "url": "https://himalayas.app/companies/aptive/jobs/multimedia-specialist?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
    "org": "The Shade Room",
    "posted": "2026-09-27T12:00:00+00:00",
    "source": "Himalayas",
@@ -408,16 +398,6 @@
    "source": "Himalayas",
    "title": "Freelance Video Producer",
    "url": "https://himalayas.app/companies/filmless/jobs/freelance-video-producer?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "CK Funded",
-   "posted": "2026-09-21T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Videographer / Video Editor",
-   "url": "https://himalayas.app/companies/ck-funded/jobs/videographer-video-editor?utm_source=api",
    "where": "Remote (US)"
   }
  ],

@@ -3,16 +3,6 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "Communitas International",
-   "posted": "2026-10-20T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Videographer",
-   "url": "https://himalayas.app/companies/communitas-international/jobs/videographer-9778648418?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
    "org": "MEAWW",
    "posted": "2026-10-20T12:00:00+00:00",
    "source": "Himalayas",
@@ -48,6 +38,16 @@
    "source": "Himalayas",
    "title": "Video Producer - TDN",
    "url": "https://himalayas.app/companies/meaww/jobs/video-producer-tdn?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Vicharanashala",
+   "posted": "2026-10-19T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video Editor",
+   "url": "https://himalayas.app/companies/vicharanashala/jobs/video-editor?utm_source=api",
    "where": "Remote (US)"
   },
   {
@@ -161,16 +161,6 @@
    "where": "Remote (US)"
   },
   {
-   "location": "Remote (United States + 2 other countries)",
-   "mission": false,
-   "org": "Electrify Video Partners",
-   "posted": "2026-10-09T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Ad Creative Video Editor, The Rundown",
-   "url": "https://himalayas.app/companies/electrify-video-partners/jobs/ad-creative-video-editor-the-rundown?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "Floowi",
@@ -198,16 +188,6 @@
    "source": "Himalayas",
    "title": "Bilingual (English/Spanish) Video Producer/Writer/Director",
    "url": "https://himalayas.app/companies/relx/jobs/bilingual-english-spanish-video-producer-writer-director?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States + 2 other countries)",
-   "mission": false,
-   "org": "Electrify Video Partners",
-   "posted": "2026-10-07T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Long Form Video Editor, The Rundown",
-   "url": "https://himalayas.app/companies/electrify-video-partners/jobs/long-form-video-editor-the-rundown?utm_source=api",
    "where": "Remote (US)"
   },
   {
@@ -261,16 +241,6 @@
    "where": "Remote (US)"
   },
   {
-   "location": "Remote (anywhere)",
-   "mission": false,
-   "org": "Benrey",
-   "posted": "2026-10-02T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Motion Designer",
-   "url": "https://himalayas.app/companies/benrey/jobs/motion-designer?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "Fortray Global Service Limited",
@@ -289,16 +259,6 @@
    "title": "Video Production Manager",
    "url": "https://www.higheredjobs.com/details.cfm?JobCode=179572195",
    "where": "NYC"
-  },
-  {
-   "location": "Remote (United States + 5 other countries)",
-   "mission": false,
-   "org": "Sortitt",
-   "posted": "2026-09-28T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Video Editor",
-   "url": "https://himalayas.app/companies/sortitt/jobs/video-editor?utm_source=api",
-   "where": "Remote (US)"
   },
   {
    "location": "Remote (United States)",
@@ -388,26 +348,6 @@
    "source": "Himalayas",
    "title": "Video Editor",
    "url": "https://himalayas.app/companies/wow-remote-teams/jobs/video-editor?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Filmless",
-   "posted": "2026-09-22T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Freelance Video Producer",
-   "url": "https://himalayas.app/companies/filmless/jobs/freelance-video-producer?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Wattpad",
-   "posted": "2026-09-11T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "[WEBTOON] Social Media Script Writer/Video Editor (Freelancer)",
-   "url": "https://himalayas.app/companies/wattpad/jobs/webtoon-social-media-script-writer-video-editor-freelancer?utm_source=api",
    "where": "Remote (US)"
   }
  ],
@@ -615,6 +555,10 @@
   "video editor|sortitt": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-28T12:00:00+00:00"
+  },
+  "video editor|vicharanashala": {
+   "first_seen": "2026-10-22T12:00:00+00:00",
+   "posted": "2026-10-19T12:00:00+00:00"
   },
   "video editor|wow remote teams": {
    "first_seen": "2026-09-30T12:00:00+00:00",

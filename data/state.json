@@ -1,6 +1,36 @@
 {
  "items": [
   {
+   "location": "Remote, Los Angeles, CA",
+   "mission": true,
+   "org": "The Committee for the First Amendment",
+   "posted": "2026-10-23T12:00:00+00:00",
+   "source": "Idealist",
+   "title": "The Committee for the First Amendment: Video & Content Editor (LA, temp contract)",
+   "url": "https://www.idealist.org/en/nonprofit-job/f2a9d1f5026d4f9cad75197dc93e6e8d-the-committee-for-the-first-amendment-video-content-editor-la-temp-contract-the-committee-for-the-first-amendment-los-angeles",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Center for Civilians in Conflict",
+   "posted": "2026-10-23T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Multimedia Production and Content Creation Consultant (Remote \u2013 United States, N",
+   "url": "https://himalayas.app/companies/center-for-civilians-in-conflict/jobs/multimedia-production-and-content-creation-consultant-remote-united-states-n?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Trulieve",
+   "posted": "2026-10-23T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Videographer (Tallahassee, FL, US, 32312)",
+   "url": "https://himalayas.app/companies/trulieve/jobs/videographer-tallahassee-fl-us-32312?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "MEAWW",
@@ -303,11 +333,11 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "Brafton",
-   "posted": "2026-09-25T12:00:00+00:00",
+   "org": "Hindu American Foundation",
+   "posted": "2026-09-23T12:00:00+00:00",
    "source": "Himalayas",
-   "title": "Remote Full-Time Videographer - Boston",
-   "url": "https://himalayas.app/companies/brafton/jobs/remote-full-time-videographer-boston?utm_source=api",
+   "title": "Video Content Producer",
+   "url": "https://himalayas.app/companies/hindu-american-foundation/jobs/video-content-producer-6189389039?utm_source=api",
    "where": "Remote (US)"
   },
   {
@@ -349,6 +379,10 @@
   "bilingual video producer writer director|relx": {
    "first_seen": "2026-10-08T12:00:00+00:00",
    "posted": "2026-10-08T12:00:00+00:00"
+  },
+  "committee for first amendment video and content editor|committee for first amendment": {
+   "first_seen": "2026-10-23T12:00:00+00:00",
+   "posted": "2026-10-23T12:00:00+00:00"
   },
   "communications broadcast and multimedia production manager|queensborough community college": {
    "first_seen": "2026-09-30T12:00:00+00:00",
@@ -405,6 +439,10 @@
   "multimedia content specialist|easy outsource": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-21T12:00:00+00:00"
+  },
+  "multimedia production and content creation consultant remote united states n|center for civilians in conflict": {
+   "first_seen": "2026-10-23T12:00:00+00:00",
+   "posted": "2026-10-23T12:00:00+00:00"
   },
   "multimedia specialist|aptive": {
    "first_seen": "2026-09-30T12:00:00+00:00",
@@ -581,6 +619,10 @@
   "videographer|get engaged": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-20T12:00:00+00:00"
+  },
+  "videographer|trulieve": {
+   "first_seen": "2026-10-23T12:00:00+00:00",
+   "posted": "2026-10-23T12:00:00+00:00"
   },
   "webtoon social media script writer video editor|wattpad": {
    "first_seen": "2026-10-01T12:00:00+00:00",

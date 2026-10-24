@@ -33,6 +33,16 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "Communitas International",
+   "posted": "2026-10-20T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Videographer",
+   "url": "https://himalayas.app/companies/communitas-international/jobs/videographer?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "MEAWW",
    "posted": "2026-10-20T12:00:00+00:00",
    "source": "Himalayas",
@@ -153,16 +163,6 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "Zillow Group",
-   "posted": "2026-10-10T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Video Content Producer",
-   "url": "https://himalayas.app/companies/zillow-group/jobs/video-content-producer?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
    "org": "Vox Media",
    "posted": "2026-10-10T12:00:00+00:00",
    "source": "Himalayas",
@@ -173,31 +173,11 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "Zillow Group",
-   "posted": "2026-10-10T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Content Producer, Videographer, and Editor",
-   "url": "https://himalayas.app/companies/zillow-group/jobs/content-producer-videographer-and-editor?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
    "org": "Elsevier",
    "posted": "2026-10-10T12:00:00+00:00",
    "source": "Himalayas",
    "title": "Bilingual (English/Spanish) Video Producer/Writer/Director",
    "url": "https://himalayas.app/companies/elsevier/jobs/bilingual-english-spanish-video-producer-writer-director?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Floowi",
-   "posted": "2026-10-08T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Video Editor",
-   "url": "https://himalayas.app/companies/floowi/jobs/video-editor-4424824843?utm_source=api",
    "where": "Remote (US)"
   },
   {

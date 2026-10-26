@@ -11,6 +11,16 @@
    "where": "Remote (US)"
   },
   {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "FDB",
+   "posted": "2026-10-25T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Features Multimedia Journalist (San Francisco)",
+   "url": "https://himalayas.app/companies/fdb/jobs/features-multimedia-journalist-san-francisco?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote, Los Angeles, CA",
    "mission": true,
    "org": "The Committee for the First Amendment",
@@ -349,6 +359,16 @@
    "title": "Multimedia Content Specialist",
    "url": "https://himalayas.app/companies/easy-outsource/jobs/multimedia-content-specialist?utm_source=api",
    "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Wattpad",
+   "posted": "2026-09-11T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "[WEBTOON] Social Media Script Writer/Video Editor (Freelancer)",
+   "url": "https://himalayas.app/companies/wattpad/jobs/webtoon-social-media-script-writer-video-editor-freelancer?utm_source=api",
+   "where": "Remote (US)"
   }
  ],
  "seen": {
@@ -403,6 +423,10 @@
   "dtc video editor 1|zabota": {
    "first_seen": "2026-10-12T12:00:00+00:00",
    "posted": "2026-10-12T12:00:00+00:00"
+  },
+  "features multimedia journalist|fdb": {
+   "first_seen": "2026-10-26T12:00:00+00:00",
+   "posted": "2026-10-25T12:00:00+00:00"
   },
   "freelance video producer|filmless": {
    "first_seen": "2026-09-30T12:00:00+00:00",

@@ -333,16 +333,6 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "Info Resume Edge",
-   "posted": "2026-09-27T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Staff Graphic Designer & Videographer | United States | Remote",
-   "url": "https://himalayas.app/companies/info-resume-edge/jobs/staff-graphic-designer-videographer-united-states-remote?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
    "org": "The Shade Room",
    "posted": "2026-09-27T12:00:00+00:00",
    "source": "Himalayas",
@@ -368,6 +358,16 @@
    "source": "Himalayas",
    "title": "Multimedia Content Specialist",
    "url": "https://himalayas.app/companies/easy-outsource/jobs/multimedia-content-specialist?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Wattpad",
+   "posted": "2026-09-11T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "[WEBTOON] Social Media Script Writer/Video Editor (Freelancer)",
+   "url": "https://himalayas.app/companies/wattpad/jobs/webtoon-social-media-script-writer-video-editor-freelancer?utm_source=api",
    "where": "Remote (US)"
   }
  ],

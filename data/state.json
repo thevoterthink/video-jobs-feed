@@ -3,6 +3,16 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "Unique Genius",
+   "posted": "2026-10-28T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video Editor & Social Media Specialist (LK)",
+   "url": "https://himalayas.app/companies/unique-genius/jobs/video-editor-social-media-specialist-lk?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "Wolf Games",
    "posted": "2026-10-25T12:00:00+00:00",
    "source": "Himalayas",
@@ -537,6 +547,10 @@
   "video editor and producer remote in usa|petlab": {
    "first_seen": "2026-10-15T12:00:00+00:00",
    "posted": "2026-10-15T12:00:00+00:00"
+  },
+  "video editor and social media specialist|unique genius": {
+   "first_seen": "2026-10-28T12:00:00+00:00",
+   "posted": "2026-10-28T12:00:00+00:00"
   },
   "video editor remote job|enthuziastic": {
    "first_seen": "2026-10-20T12:00:00+00:00",

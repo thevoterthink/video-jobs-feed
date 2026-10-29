@@ -13,11 +13,11 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "Unique Genius",
-   "posted": "2026-10-28T12:00:00+00:00",
+   "org": "aKube Inc",
+   "posted": "2026-10-29T12:00:00+00:00",
    "source": "Himalayas",
-   "title": "Video Editor & Social Media Specialist (LK)",
-   "url": "https://himalayas.app/companies/unique-genius/jobs/video-editor-social-media-specialist-lk?utm_source=api",
+   "title": "Broadcast Motion Designer- 1648",
+   "url": "https://himalayas.app/companies/akube-inc/jobs/broadcast-motion-designer-1648?utm_source=api",
    "where": "Remote (US)"
   },
   {
@@ -329,16 +329,6 @@
    "title": "Multimedia Content Specialist",
    "url": "https://himalayas.app/companies/easy-outsource/jobs/multimedia-content-specialist?utm_source=api",
    "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Wattpad",
-   "posted": "2026-09-11T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "[WEBTOON] Social Media Script Writer/Video Editor (Freelancer)",
-   "url": "https://himalayas.app/companies/wattpad/jobs/webtoon-social-media-script-writer-video-editor-freelancer?utm_source=api",
-   "where": "Remote (US)"
   }
  ],
  "seen": {
@@ -369,6 +359,10 @@
   "bilingual video producer writer director|relx": {
    "first_seen": "2026-10-08T12:00:00+00:00",
    "posted": "2026-10-08T12:00:00+00:00"
+  },
+  "broadcast motion designer 1648|akube": {
+   "first_seen": "2026-10-29T12:00:00+00:00",
+   "posted": "2026-10-29T12:00:00+00:00"
   },
   "committee for first amendment video and content editor|committee for first amendment": {
    "first_seen": "2026-10-23T12:00:00+00:00",

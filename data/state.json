@@ -3,11 +3,31 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "First Media",
+   "posted": "2026-10-29T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video Producer / Editor, Performance Marketing",
+   "url": "https://himalayas.app/companies/first-media/jobs/video-producer-editor-performance-marketing?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "Unique Genius",
    "posted": "2026-10-28T12:00:00+00:00",
    "source": "Himalayas",
    "title": "Video Editor & Social Media Specialist (LK)",
    "url": "https://himalayas.app/companies/unique-genius/jobs/video-editor-social-media-specialist-lk?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "CatFace",
+   "posted": "2026-10-28T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Contract Commercial Video & Photo Editor",
+   "url": "https://himalayas.app/companies/catface/jobs/contract-commercial-video-photo-editor?utm_source=api",
    "where": "Remote (US)"
   },
   {
@@ -253,16 +273,6 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "CACI International Inc",
-   "posted": "2026-10-05T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Trainer/Videographer \u2013 Level III",
-   "url": "https://himalayas.app/companies/caci-international-inc/jobs/trainer-videographer-level-iii?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
    "org": "Engine Systems",
    "posted": "2026-10-02T12:00:00+00:00",
    "source": "Himalayas",
@@ -391,6 +401,10 @@
   "content producer videographer and editor|zillow group": {
    "first_seen": "2026-10-10T12:00:00+00:00",
    "posted": "2026-10-10T12:00:00+00:00"
+  },
+  "contract commercial video and photo editor|catface": {
+   "first_seen": "2026-10-29T12:00:00+00:00",
+   "posted": "2026-10-28T12:00:00+00:00"
   },
   "creative content and multimedia production specialist|global culture network": {
    "first_seen": "2026-10-19T12:00:00+00:00",
@@ -587,6 +601,10 @@
   "video editor|wow remote teams": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-22T12:00:00+00:00"
+  },
+  "video producer editor performance marketing|first media": {
+   "first_seen": "2026-10-29T12:00:00+00:00",
+   "posted": "2026-10-29T12:00:00+00:00"
   },
   "video producer meaww news mcgill|meaww": {
    "first_seen": "2026-10-20T12:00:00+00:00",

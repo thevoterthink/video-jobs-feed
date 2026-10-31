@@ -3,6 +3,16 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "CNO Financial Group",
+   "posted": "2026-10-31T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Multimedia Content Producer - Carmel, IN or Chicago, IL",
+   "url": "https://himalayas.app/companies/cno-financial-group/jobs/multimedia-content-producer-carmel-in-or-chicago-il?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "First Media",
    "posted": "2026-10-29T12:00:00+00:00",
    "source": "Himalayas",
@@ -417,6 +427,10 @@
   "motion designer|benrey": {
    "first_seen": "2026-10-02T12:00:00+00:00",
    "posted": "2026-10-02T12:00:00+00:00"
+  },
+  "multimedia content producer carmel in or chicago il|cno financial group": {
+   "first_seen": "2026-10-31T12:00:00+00:00",
+   "posted": "2026-10-31T12:00:00+00:00"
   },
   "multimedia content specialist|easy outsource": {
    "first_seen": "2026-09-30T12:00:00+00:00",

@@ -3,6 +3,16 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "Red Door Collaborative",
+   "posted": "2026-11-01T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Senior Lead Motion Designer",
+   "url": "https://himalayas.app/companies/red-door-collaborative/jobs/senior-lead-motion-designer?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "CNO Financial Group",
    "posted": "2026-10-31T12:00:00+00:00",
    "source": "Himalayas",
@@ -43,16 +53,6 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "Wolf Games",
-   "posted": "2026-10-25T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Senior Video Editor & AI Motion Designer",
-   "url": "https://himalayas.app/companies/wolf-games/jobs/senior-video-editor-ai-motion-designer?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
    "org": "Flare Energy Services LLC",
    "posted": "2026-10-25T12:00:00+00:00",
    "source": "Himalayas",
@@ -81,7 +81,7 @@
    "where": "Remote (US)"
   },
   {
-   "location": "Remote (United States)",
+   "location": "Remote (United States + 3 other countries)",
    "mission": false,
    "org": "Center for Civilians in Conflict",
    "posted": "2026-10-23T12:00:00+00:00",
@@ -118,16 +118,6 @@
    "source": "Himalayas",
    "title": "Video Producer - MEAWW News/McGill",
    "url": "https://himalayas.app/companies/meaww/jobs/video-producer-meaww-news-mcgill?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "EnthuZiastic",
-   "posted": "2026-10-20T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Video Editor - Remote Job",
-   "url": "https://himalayas.app/companies/enthuziastic/jobs/video-editor-remote-job?utm_source=api",
    "where": "Remote (US)"
   },
   {
@@ -273,16 +263,6 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "Engine Systems",
-   "posted": "2026-10-02T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Video Producer",
-   "url": "https://himalayas.app/companies/engine-systems/jobs/video-producer?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
    "org": "AutoHDR",
    "posted": "2026-10-02T12:00:00+00:00",
    "source": "Himalayas",
@@ -303,16 +283,6 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "Fortray Global Service Limited",
-   "posted": "2026-10-02T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Animator \u2013 Video Content & Ad Creatives (Remote, Full-Time)",
-   "url": "https://himalayas.app/companies/fortray-global-service-limited/jobs/animator-video-content-ad-creatives-remote-full-time?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
    "org": "Info Resume Edge",
    "posted": "2026-09-27T12:00:00+00:00",
    "source": "Himalayas",
@@ -328,16 +298,6 @@
    "source": "Himalayas",
    "title": "Video Content Producer",
    "url": "https://himalayas.app/companies/hindu-american-foundation/jobs/video-content-producer-6189389039?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Easy Outsource",
-   "posted": "2026-09-21T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Multimedia Content Specialist",
-   "url": "https://himalayas.app/companies/easy-outsource/jobs/multimedia-content-specialist?utm_source=api",
    "where": "Remote (US)"
   }
  ],
@@ -465,6 +425,10 @@
   "remote video editor|flare energy services": {
    "first_seen": "2026-10-25T12:00:00+00:00",
    "posted": "2026-10-25T12:00:00+00:00"
+  },
+  "senior lead motion designer|red door collaborative": {
+   "first_seen": "2026-11-01T12:00:00+00:00",
+   "posted": "2026-11-01T12:00:00+00:00"
   },
   "senior motion designer|alphasense": {
    "first_seen": "2026-10-04T12:00:00+00:00",

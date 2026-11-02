@@ -171,6 +171,16 @@
    "where": "Remote (US)"
   },
   {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Petlab Co.",
+   "posted": "2026-10-15T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video Editor and Producer (AI & Performance Ads) Remote in USA",
+   "url": "https://himalayas.app/companies/petlab-co/jobs/video-editor-and-producer-ai-performance-ads-remote-in-usa-4045461277?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote (United States + 31 other countries)",
    "mission": false,
    "org": "CoinPoker",
@@ -208,6 +218,16 @@
    "source": "Himalayas",
    "title": "Bilingual (English/Spanish) Video Producer/Writer/Director",
    "url": "https://himalayas.app/companies/elsevier/jobs/bilingual-english-spanish-video-producer-writer-director?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Scaling.com",
+   "posted": "2026-10-09T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video Editor / Creative Producer - Marketing & Direct Response",
+   "url": "https://himalayas.app/companies/scaling-com/jobs/video-editor-creative-producer-marketing-direct-response?utm_source=api",
    "where": "Remote (US)"
   },
   {
@@ -471,6 +491,10 @@
   "video editor and social media specialist|unique genius": {
    "first_seen": "2026-10-28T12:00:00+00:00",
    "posted": "2026-10-28T12:00:00+00:00"
+  },
+  "video editor creative producer marketing and direct response|scaling com": {
+   "first_seen": "2026-11-02T12:00:00+00:00",
+   "posted": "2026-10-09T12:00:00+00:00"
   },
   "video editor remote job|enthuziastic": {
    "first_seen": "2026-10-20T12:00:00+00:00",

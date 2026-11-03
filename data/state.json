@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Project Management Institute, Inc.",
+   "posted": "2026-11-03T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Creator & Social Video Producer",
+   "url": "https://himalayas.app/companies/project-management-institute-inc/jobs/creator-social-video-producer?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "USA TODAY",
+   "posted": "2026-11-02T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Social Video Specialist",
+   "url": "https://himalayas.app/companies/usa-today/jobs/social-video-specialist?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote (United States + 1 other countries)",
    "mission": false,
    "org": "Mercury",
@@ -221,16 +241,6 @@
    "where": "Remote (US)"
   },
   {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Scaling.com",
-   "posted": "2026-10-09T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Video Editor / Creative Producer - Marketing & Direct Response",
-   "url": "https://himalayas.app/companies/scaling-com/jobs/video-editor-creative-producer-marketing-direct-response?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
    "location": "New York City, United States",
    "mission": true,
    "org": "ProPublica",
@@ -323,6 +333,10 @@
   "creative content and multimedia production specialist|global culture network": {
    "first_seen": "2026-10-19T12:00:00+00:00",
    "posted": "2026-10-19T12:00:00+00:00"
+  },
+  "creator and social video producer|project management institute": {
+   "first_seen": "2026-11-03T12:00:00+00:00",
+   "posted": "2026-11-03T12:00:00+00:00"
   },
   "director video production|planned parenthood": {
    "first_seen": "2026-09-30T12:00:00+00:00",
@@ -443,6 +457,10 @@
   "social video specialist|gannett": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-20T12:00:00+00:00"
+  },
+  "social video specialist|usa today": {
+   "first_seen": "2026-11-03T12:00:00+00:00",
+   "posted": "2026-11-02T12:00:00+00:00"
   },
   "staff graphic designer and videographer united states remote|info resume edge": {
    "first_seen": "2026-09-30T12:00:00+00:00",

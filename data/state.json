@@ -121,16 +121,6 @@
    "where": "Remote (US)"
   },
   {
-   "location": "Remote (United States + 3 other countries)",
-   "mission": false,
-   "org": "Center for Civilians in Conflict",
-   "posted": "2026-10-23T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Multimedia Production and Content Creation Consultant (Remote \u2013 United States, N",
-   "url": "https://himalayas.app/companies/center-for-civilians-in-conflict/jobs/multimedia-production-and-content-creation-consultant-remote-united-states-n?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "Trulieve",
@@ -278,6 +268,16 @@
    "source": "Himalayas",
    "title": "Video Content Producer",
    "url": "https://himalayas.app/companies/hindu-american-foundation/jobs/video-content-producer-6189389039?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Vox Media",
+   "posted": "2026-09-04T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video Producer, On With Kara Swisher",
+   "url": "https://himalayas.app/companies/vox-media/jobs/video-producer-on-with-kara-swisher?utm_source=api",
    "where": "Remote (US)"
   }
  ],

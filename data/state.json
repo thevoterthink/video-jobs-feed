@@ -3,6 +3,16 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "Care Access",
+   "posted": "2026-11-05T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Creative Video Producer",
+   "url": "https://himalayas.app/companies/care-access/jobs/creative-video-producer?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "Project Management Institute, Inc.",
    "posted": "2026-11-03T12:00:00+00:00",
    "source": "Himalayas",
@@ -18,16 +28,6 @@
    "source": "Himalayas",
    "title": "Social Video Specialist",
    "url": "https://himalayas.app/companies/usa-today/jobs/social-video-specialist?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States + 1 other countries)",
-   "mission": false,
-   "org": "Mercury",
-   "posted": "2026-11-01T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Staff Motion Designer - 3D",
-   "url": "https://himalayas.app/companies/mercury/jobs/staff-motion-designer-3d?utm_source=api",
    "where": "Remote (US)"
   },
   {
@@ -273,6 +273,10 @@
   "creative content and multimedia production specialist|global culture network": {
    "first_seen": "2026-10-19T12:00:00+00:00",
    "posted": "2026-10-19T12:00:00+00:00"
+  },
+  "creative video producer|care access": {
+   "first_seen": "2026-11-05T12:00:00+00:00",
+   "posted": "2026-11-05T12:00:00+00:00"
   },
   "creator and social video producer|project management institute": {
    "first_seen": "2026-11-03T12:00:00+00:00",

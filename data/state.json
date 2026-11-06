@@ -3,6 +3,16 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "Acumenian (now Consertus)",
+   "posted": "2026-11-06T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Multimedia Content Designer",
+   "url": "https://himalayas.app/companies/acumenian-now-consertus/jobs/multimedia-content-designer?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "Care Access",
    "posted": "2026-11-05T12:00:00+00:00",
    "source": "Himalayas",
@@ -325,6 +335,10 @@
   "motion designer|benrey": {
    "first_seen": "2026-10-02T12:00:00+00:00",
    "posted": "2026-10-02T12:00:00+00:00"
+  },
+  "multimedia content designer|acumenian": {
+   "first_seen": "2026-11-06T12:00:00+00:00",
+   "posted": "2026-11-06T12:00:00+00:00"
   },
   "multimedia content producer carmel in or chicago il|cno financial group": {
    "first_seen": "2026-10-31T12:00:00+00:00",

@@ -3,6 +3,16 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "Her Campus Media",
+   "posted": "2026-11-07T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Multimedia Producer (Video & Audio)",
+   "url": "https://himalayas.app/companies/her-campus-media/jobs/multimedia-producer-video-audio?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "Acumenian (now Consertus)",
    "posted": "2026-11-06T12:00:00+00:00",
    "source": "Himalayas",
@@ -168,16 +178,6 @@
    "source": "Himalayas",
    "title": "Associate Video Producer",
    "url": "https://himalayas.app/companies/gannett/jobs/associate-video-producer?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Petlab Co.",
-   "posted": "2026-10-15T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Video Editor and Producer (AI & Performance Ads) Remote in USA",
-   "url": "https://himalayas.app/companies/petlab-co/jobs/video-editor-and-producer-ai-performance-ads-remote-in-usa-4045461277?utm_source=api",
    "where": "Remote (US)"
   },
   {
@@ -361,6 +361,10 @@
   "multimedia content specialist|easy outsource": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-21T12:00:00+00:00"
+  },
+  "multimedia producer|her campus media": {
+   "first_seen": "2026-11-07T12:00:00+00:00",
+   "posted": "2026-11-07T12:00:00+00:00"
   },
   "multimedia production and content creation consultant remote united states n|center for civilians in conflict": {
    "first_seen": "2026-10-23T12:00:00+00:00",

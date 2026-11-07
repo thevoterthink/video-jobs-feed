@@ -11,6 +11,16 @@
    "where": "Remote (US)"
   },
   {
+   "location": "Remote (anywhere)",
+   "mission": false,
+   "org": "Nordic Investin Group",
+   "posted": "2026-11-06T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Cinematic Video Producer, AIVERA GLOBAL",
+   "url": "https://himalayas.app/companies/nordic-investin-group/jobs/cinematic-video-producer-aivera-global?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "Care Access",
@@ -263,6 +273,10 @@
   "broadcast motion designer 1648|akube": {
    "first_seen": "2026-10-29T12:00:00+00:00",
    "posted": "2026-10-29T12:00:00+00:00"
+  },
+  "cinematic video producer aivera global|nordic investin group": {
+   "first_seen": "2026-11-07T12:00:00+00:00",
+   "posted": "2026-11-06T12:00:00+00:00"
   },
   "committee for first amendment video and content editor|committee for first amendment": {
    "first_seen": "2026-10-23T12:00:00+00:00",

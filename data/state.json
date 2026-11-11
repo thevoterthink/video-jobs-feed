@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "Remote, California, US",
+   "mission": true,
+   "org": "Golden State Opportunity Foundation",
+   "posted": "2026-11-10T12:00:00+00:00",
+   "source": "Idealist",
+   "title": "Video Editing & Photography Fellow",
+   "url": "https://www.idealist.org/en/nonprofit-job/d3d6d209f42f44e180ffb9a9d09d53b4-video-editing-photography-fellow-golden-state-opportunity-foundation-san-francisco",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "Her Campus Media",
@@ -457,6 +467,10 @@
   "video content producer|zillow group": {
    "first_seen": "2026-10-11T12:00:00+00:00",
    "posted": "2026-10-10T12:00:00+00:00"
+  },
+  "video editing and photography fellow|golden state opportunity foundation": {
+   "first_seen": "2026-11-11T12:00:00+00:00",
+   "posted": "2026-11-10T12:00:00+00:00"
   },
   "video editor and motion designer temporary|propublica": {
    "first_seen": "2026-10-05T12:00:00+00:00",

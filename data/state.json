@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Artemis ARC",
+   "posted": "2026-11-12T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video/Multimedia Producer",
+   "url": "https://himalayas.app/companies/artemis-arc/jobs/video-multimedia-producer?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote, California, US",
    "mission": true,
    "org": "Golden State Opportunity Foundation",
@@ -565,6 +575,10 @@
   "video editor|wow remote teams": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-22T12:00:00+00:00"
+  },
+  "video multimedia producer|artemis arc": {
+   "first_seen": "2026-11-12T12:00:00+00:00",
+   "posted": "2026-11-12T12:00:00+00:00"
   },
   "video producer editor performance marketing|first media": {
    "first_seen": "2026-10-29T12:00:00+00:00",

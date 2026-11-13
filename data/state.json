@@ -51,6 +51,16 @@
    "where": "Remote (US)"
   },
   {
+   "location": "New York, New York, USA",
+   "mission": false,
+   "org": "Datadog",
+   "posted": "2026-11-06T12:00:00-05:00",
+   "source": "Greenhouse",
+   "title": "Senior Video Editor",
+   "url": "https://careers.datadoghq.com/detail/8350101/?gh_jid=8350101",
+   "where": "NYC"
+  },
+  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "Study.com",
@@ -58,6 +68,16 @@
    "source": "Himalayas",
    "title": "Social Media Video Talent - Education (Contract)",
    "url": "https://himalayas.app/companies/study-com/jobs/social-media-video-talent-education-contract?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (USA)",
+   "mission": false,
+   "org": "Quince",
+   "posted": "2026-11-06T12:00:00+00:00",
+   "source": "Jobicy",
+   "title": "Paid Social Video Producer",
+   "url": "https://jobicy.com/jobs/154753-paid-social-video-producer",
    "where": "Remote (US)"
   },
   {
@@ -81,6 +101,16 @@
    "where": "Remote (US)"
   },
   {
+   "location": "San Francisco, CA, US; Remote, US",
+   "mission": false,
+   "org": "Pinterest",
+   "posted": "2026-11-03T12:00:00-05:00",
+   "source": "Greenhouse",
+   "title": "Motion Designer, PPM SMB",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8268342",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "Project Management Institute, Inc.",
@@ -89,6 +119,16 @@
    "title": "Creator & Social Video Producer",
    "url": "https://himalayas.app/companies/project-management-institute-inc/jobs/creator-social-video-producer?utm_source=api",
    "where": "Remote (US)"
+  },
+  {
+   "location": "New York, New York, USA",
+   "mission": false,
+   "org": "Datadog",
+   "posted": "2026-11-02T12:00:00-05:00",
+   "source": "Greenhouse",
+   "title": "Video Script Writer",
+   "url": "https://careers.datadoghq.com/detail/8346246/?gh_jid=8346246",
+   "where": "NYC"
   },
   {
    "location": "Remote (United States)",
@@ -109,6 +149,26 @@
    "title": "Senior Lead Motion Designer",
    "url": "https://himalayas.app/companies/red-door-collaborative/jobs/senior-lead-motion-designer?utm_source=api",
    "where": "Remote (US)"
+  },
+  {
+   "location": "San Francisco, CA, US; Remote, US",
+   "mission": false,
+   "org": "Pinterest",
+   "posted": "2026-10-30T12:00:00-04:00",
+   "source": "Greenhouse",
+   "title": "Staff Motion Designer, Design Innovation",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8302281",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "New York, NY, United States",
+   "mission": false,
+   "org": "Hearst",
+   "posted": "2026-10-29T12:00:00-04:00",
+   "source": "Greenhouse",
+   "title": "Temporary Video Producer",
+   "url": "https://job-boards.greenhouse.io/hearst/jobs/4472580009",
+   "where": "NYC"
   },
   {
    "location": "Remote (United States)",
@@ -139,6 +199,76 @@
    "title": "Contract Commercial Video & Photo Editor",
    "url": "https://himalayas.app/companies/catface/jobs/contract-commercial-video-photo-editor?utm_source=api",
    "where": "Remote (US)"
+  },
+  {
+   "location": "New York, NY, United States",
+   "mission": false,
+   "org": "Hearst",
+   "posted": "2026-10-27T12:00:00-04:00",
+   "source": "Greenhouse",
+   "title": "Temporary Video Editor, Men's Health and Women's Health",
+   "url": "https://job-boards.greenhouse.io/hearst/jobs/4466183009",
+   "where": "NYC"
+  },
+  {
+   "location": "New York, NY, United States",
+   "mission": false,
+   "org": "Hearst",
+   "posted": "2026-10-27T12:00:00-04:00",
+   "source": "Greenhouse",
+   "title": "Temporary Social Video Editor, Delish",
+   "url": "https://job-boards.greenhouse.io/hearst/jobs/4466370009",
+   "where": "NYC"
+  },
+  {
+   "location": "New York, NY, United States",
+   "mission": false,
+   "org": "Hearst",
+   "posted": "2026-10-26T12:00:00-04:00",
+   "source": "Greenhouse",
+   "title": "Video Producer",
+   "url": "https://job-boards.greenhouse.io/hearst/jobs/4466345009",
+   "where": "NYC"
+  },
+  {
+   "location": "New York, NY, United States",
+   "mission": false,
+   "org": "Hearst",
+   "posted": "2026-10-26T12:00:00-04:00",
+   "source": "Greenhouse",
+   "title": "Video & Social Media Manager, Cosmopolitan & Seventeen",
+   "url": "https://job-boards.greenhouse.io/hearst/jobs/4466447009",
+   "where": "NYC"
+  },
+  {
+   "location": "New York, NY, United States",
+   "mission": false,
+   "org": "Hearst",
+   "posted": "2026-10-26T12:00:00-04:00",
+   "source": "Greenhouse",
+   "title": "Social Video Producer, ELLE",
+   "url": "https://job-boards.greenhouse.io/hearst/jobs/4466365009",
+   "where": "NYC"
+  },
+  {
+   "location": "New York, NY, United States",
+   "mission": false,
+   "org": "Hearst",
+   "posted": "2026-10-26T12:00:00-04:00",
+   "source": "Greenhouse",
+   "title": "Social Media & Video Producer, Town & Country",
+   "url": "https://job-boards.greenhouse.io/hearst/jobs/4466512009",
+   "where": "NYC"
+  },
+  {
+   "location": "New York, NY, United States",
+   "mission": false,
+   "org": "Hearst",
+   "posted": "2026-10-26T12:00:00-04:00",
+   "source": "Greenhouse",
+   "title": "Senior Creative, Video",
+   "url": "https://job-boards.greenhouse.io/hearst/jobs/4466462009",
+   "where": "NYC"
   },
   {
    "location": "Remote (United States)",
@@ -231,6 +361,36 @@
    "where": "Remote (US)"
   },
   {
+   "location": "Remote (USA, Canada, Ireland or UK only)",
+   "mission": false,
+   "org": "Marker Video",
+   "posted": "2026-10-15T12:00:00-04:00",
+   "source": "Working Nomads",
+   "title": "Video Creator (100% remote)",
+   "url": "https://www.workingnomads.com/job/go/1944774/",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "New York, NY",
+   "mission": false,
+   "org": "Vox Media",
+   "posted": "2026-10-15T12:00:00-04:00",
+   "source": "Greenhouse",
+   "title": "Post Production Supervisor",
+   "url": "http://boards.greenhouse.io/voxmedia/jobs/8281987?gh_jid=8281987",
+   "where": "NYC"
+  },
+  {
+   "location": "New York, NY",
+   "mission": false,
+   "org": "Vox Media",
+   "posted": "2026-10-14T12:00:00-04:00",
+   "source": "Greenhouse",
+   "title": "Assistant Video Editor",
+   "url": "http://boards.greenhouse.io/voxmedia/jobs/8282000?gh_jid=8282000",
+   "where": "NYC"
+  },
+  {
    "location": "Remote (United States + 31 other countries)",
    "mission": false,
    "org": "CoinPoker",
@@ -283,6 +443,10 @@
   "animator video content and ad creatives|fortray global service limited": {
    "first_seen": "2026-10-03T12:00:00+00:00",
    "posted": "2026-10-02T12:00:00+00:00"
+  },
+  "assistant video editor|vox media": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-10-14T12:00:00-04:00"
   },
   "associate video producer|athletic": {
    "first_seen": "2026-10-07T12:00:00+00:00",
@@ -380,6 +544,10 @@
    "first_seen": "2026-10-01T12:00:00+00:00",
    "posted": "2026-09-30T12:00:00+00:00"
   },
+  "motion designer ppm smb|pinterest": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-11-03T12:00:00-05:00"
+  },
   "motion designer video editor|seez": {
    "first_seen": "2026-10-08T12:00:00+00:00",
    "posted": "2026-10-08T12:00:00+00:00"
@@ -420,6 +588,14 @@
    "first_seen": "2026-10-01T12:00:00+00:00",
    "posted": "2026-10-01T12:00:00+00:00"
   },
+  "paid social video producer|quince": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-11-06T12:00:00+00:00"
+  },
+  "post production supervisor|vox media": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-10-15T12:00:00-04:00"
+  },
   "remote full time videographer boston|brafton": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-25T12:00:00+00:00"
@@ -427,6 +603,10 @@
   "remote video editor|flare energy services": {
    "first_seen": "2026-10-25T12:00:00+00:00",
    "posted": "2026-10-25T12:00:00+00:00"
+  },
+  "senior creative video|hearst": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-10-26T12:00:00-04:00"
   },
   "senior lead motion designer|red door collaborative": {
    "first_seen": "2026-11-01T12:00:00+00:00",
@@ -448,6 +628,10 @@
    "first_seen": "2026-10-26T12:00:00+00:00",
    "posted": "2026-10-25T12:00:00+00:00"
   },
+  "senior video editor|datadog": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-11-06T12:00:00-05:00"
+  },
   "senior video producer|intapp": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-08-31T12:00:00+00:00"
@@ -455,6 +639,10 @@
   "senior video producer|liquid death": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-25T12:00:00+00:00"
+  },
+  "social media and video producer town and country|hearst": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-10-26T12:00:00-04:00"
   },
   "social media content creator and video editor|conexwest": {
    "first_seen": "2026-10-02T12:00:00+00:00",
@@ -476,6 +664,10 @@
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-24T12:00:00+00:00"
   },
+  "social video producer elle|hearst": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-10-26T12:00:00-04:00"
+  },
   "social video specialist|gannett": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-20T12:00:00+00:00"
@@ -492,6 +684,22 @@
    "first_seen": "2026-11-02T12:00:00+00:00",
    "posted": "2026-11-01T12:00:00+00:00"
   },
+  "staff motion designer design innovation|pinterest": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-10-30T12:00:00-04:00"
+  },
+  "temporary social video editor delish|hearst": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-10-27T12:00:00-04:00"
+  },
+  "temporary video editor men s health and women s health|hearst": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-10-27T12:00:00-04:00"
+  },
+  "temporary video producer|hearst": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-10-29T12:00:00-04:00"
+  },
   "trainer videographer level iii|caci international": {
    "first_seen": "2026-10-05T12:00:00+00:00",
    "posted": "2026-10-05T12:00:00+00:00"
@@ -503,6 +711,10 @@
   "video and content producer|permitflow": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-03T12:00:00+00:00"
+  },
+  "video and social media manager cosmopolitan and seventeen|hearst": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-10-26T12:00:00-04:00"
   },
   "video and social media producer criminal|vox media": {
    "first_seen": "2026-10-10T12:00:00+00:00",
@@ -523,6 +735,10 @@
   "video content producer|zillow group": {
    "first_seen": "2026-10-11T12:00:00+00:00",
    "posted": "2026-10-10T12:00:00+00:00"
+  },
+  "video creator|marker video": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-10-15T12:00:00-04:00"
   },
   "video editing and photography fellow|golden state opportunity foundation": {
    "first_seen": "2026-11-11T12:00:00+00:00",
@@ -608,6 +824,10 @@
    "first_seen": "2026-10-02T12:00:00+00:00",
    "posted": "2026-10-02T12:00:00+00:00"
   },
+  "video producer|hearst": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-10-26T12:00:00-04:00"
+  },
   "video production manager|new york university": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-29T12:00:00+00:00"
@@ -615,6 +835,10 @@
   "video project coordinator|icrossing": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-13T12:00:00+00:00"
+  },
+  "video script writer|datadog": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-11-02T12:00:00-05:00"
   },
   "videographer and video editor|recom": {
    "first_seen": "2026-10-16T12:00:00+00:00",

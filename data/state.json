@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "Remote (USA)",
+   "mission": false,
+   "org": "Kalshi",
+   "posted": "2026-11-13T12:00:00+00:00",
+   "source": "Jobicy",
+   "title": "Video Editor",
+   "url": "https://jobicy.com/jobs/155198-video-editor",
+   "where": "Remote (US)"
+  },
+  {
    "location": "New York, NY",
    "mission": false,
    "org": "CUNY",
@@ -68,16 +78,6 @@
    "source": "Himalayas",
    "title": "Social Media Video Talent - Education (Contract)",
    "url": "https://himalayas.app/companies/study-com/jobs/social-media-video-talent-education-contract?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (USA)",
-   "mission": false,
-   "org": "Quince",
-   "posted": "2026-11-06T12:00:00+00:00",
-   "source": "Jobicy",
-   "title": "Paid Social Video Producer",
-   "url": "https://jobicy.com/jobs/154753-paid-social-video-producer",
    "where": "Remote (US)"
   },
   {
@@ -389,16 +389,6 @@
    "title": "Assistant Video Editor",
    "url": "http://boards.greenhouse.io/voxmedia/jobs/8282000?gh_jid=8282000",
    "where": "NYC"
-  },
-  {
-   "location": "Remote (United States + 31 other countries)",
-   "mission": false,
-   "org": "CoinPoker",
-   "posted": "2026-10-14T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Video Producer",
-   "url": "https://himalayas.app/companies/coinpoker/jobs/video-producer?utm_source=api",
-   "where": "Remote (US)"
   },
   {
    "location": "Remote (United States)",
@@ -771,6 +761,10 @@
   "video editor|floowi": {
    "first_seen": "2026-10-08T12:00:00+00:00",
    "posted": "2026-10-08T12:00:00+00:00"
+  },
+  "video editor|kalshi": {
+   "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": "2026-11-13T12:00:00+00:00"
   },
   "video editor|lumimeds": {
    "first_seen": "2026-10-01T12:00:00+00:00",

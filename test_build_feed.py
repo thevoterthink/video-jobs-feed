@@ -38,6 +38,20 @@ class NewSources(unittest.TestCase):
         self.assertEqual(b.classify_location(loc), "NYC")
         self.assertEqual(b.cuny_job("https://cuny.jobs/about/"), (None, None))
 
+    def test_remote_scope(self):
+        self.assertEqual(b.remote_scope("Anywhere in the World"), [])
+        self.assertEqual(b.classify_location("Remote", restrictions=b.remote_scope("USA Only")), "Remote (US)")
+        self.assertIsNone(b.classify_location("Remote", restrictions=b.remote_scope("Europe Only")))
+
+    def test_one_bad_board_is_skipped(self):
+        def one(slug, value):
+            if slug == "bad":
+                raise RuntimeError("404")
+            return [slug]
+        self.assertEqual(b.try_boards({"bad": "x", "good": "y"}, one), ["good"])
+        with self.assertRaises(RuntimeError):
+            b.try_boards({"bad": "x"}, one)
+
     def test_board_entries(self):
         self.assertEqual(b.board("ACLU")[:2], ("ACLU", True))
         self.assertEqual(b.board({"name": "Skadden", "mission": False})[:2], ("Skadden", False))

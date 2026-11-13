@@ -37,8 +37,8 @@ SRC_CFG = CONFIG["sources"]
 # the employer's own listing is the best link to keep.
 SOURCE_PRIORITY = {
     "Greenhouse": 90, "Lever": 90, "BambooHR": 90, "Workday": 90, "Breezy": 90, "Jobvite": 90,
-    "Pinpoint": 90, "Idealist": 70, "HigherEdJobs": 60, "CUNY": 55,
-    "Himalayas": 40, "Remotive": 30, "Remote OK": 20,
+    "Pinpoint": 90, "Ashby": 90, "NYC Gov": 80, "Idealist": 70, "HigherEdJobs": 60, "CUNY": 55,
+    "Himalayas": 40, "We Work Remotely": 35, "Remotive": 30, "Jobicy": 25, "Working Nomads": 25, "Remote OK": 20,
 }
 
 
@@ -195,6 +195,22 @@ def fetch_json(url, data=None):
     return json.loads(fetch(url, accept="application/json", data=data))
 
 
+def try_boards(boards, fn):
+    """Run fn(slug, value) for every watchlist board. One broken board is skipped;
+    the source only fails when every board fails."""
+    out, failed = [], []
+    for slug, value in boards.items():
+        try:
+            out.extend(fn(slug, value))
+        except Exception as e:
+            failed.append(f"{slug}: {str(e)[-60:]}")
+    if failed and len(failed) == len(boards):
+        raise RuntimeError("every board failed, e.g. " + failed[0])
+    if failed:
+        print(f"  skipped {len(failed)} board(s): " + "; ".join(failed)[:300], file=sys.stderr)
+    return out
+
+
 def board(value):
     """A watchlist entry is either "Display Name" or {"name": ..., "mission": false, ...}.
     Watchlist employers are starred unless the entry says "mission": false."""
@@ -313,21 +329,19 @@ def src_remoteok(cfg):
 
 
 def src_greenhouse(cfg):
-    out = []
-    for slug, value in cfg["boards"].items():
+    def one(slug, value):
         name, mission, _ = board(value)
         data = fetch_json(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs")
-        for j in data.get("jobs", []):
-            loc = (j.get("location") or {}).get("name", "")
-            out.append(job(j.get("title"), name, loc, parse_date(j.get("first_published") or j.get("updated_at")),
-                           j.get("absolute_url"), "Greenhouse", mission=mission))
-    return out
+        return [job(j.get("title"), name, (j.get("location") or {}).get("name", ""),
+                    parse_date(j.get("first_published") or j.get("updated_at")),
+                    j.get("absolute_url"), "Greenhouse", mission=mission) for j in data.get("jobs", [])]
+    return try_boards(cfg["boards"], one)
 
 
 def src_lever(cfg):
-    out = []
-    for slug, value in cfg["boards"].items():
+    def one(slug, value):
         name, mission, _ = board(value)
+        out = []
         data = fetch_json(f"https://api.lever.co/v0/postings/{slug}?mode=json")
         for j in data if isinstance(data, list) else []:
             cats = j.get("categories") or {}
@@ -339,7 +353,29 @@ def src_lever(cfg):
                 loc += ", US"
             out.append(job(j.get("text"), name, loc, parse_date(j.get("createdAt")),
                            j.get("hostedUrl"), "Lever", mission=mission))
-    return out
+        return out
+    return try_boards(cfg["boards"], one)
+
+
+def src_ashby(cfg):
+    def one(slug, value):
+        name, mission, _ = board(value)
+        out = []
+        data = fetch_json(f"https://api.ashbyhq.com/posting-api/job-board/{slug}")
+        for j in data.get("jobs", []):
+            if j.get("isListed") is False:
+                continue
+            addr = ((j.get("address") or {}).get("postalAddress") or {})
+            loc = "; ".join([j.get("location") or ""] + [x.get("location", "") for x in j.get("secondaryLocations") or []])
+            if (j.get("workplaceType") or "").lower() == "remote":
+                loc += " (remote)"
+            country = addr.get("addressCountry") or ""
+            if country and country.lower() not in loc.lower():
+                loc += ", " + country
+            out.append(job(j.get("title"), name, loc, parse_date(j.get("publishedAt")),
+                           j.get("jobUrl"), "Ashby", mission=mission))
+        return out
+    return try_boards(cfg["boards"], one)
 
 
 def src_bamboohr(cfg):
@@ -478,6 +514,77 @@ def src_cuny(cfg):
     return out
 
 
+def src_nycgov(cfg):
+    """City of New York postings from NYC Open Data (Socrata). Every job is in NYC."""
+    q = urllib.parse.urlencode({
+        "$select": "job_id,agency,business_title,posting_date,work_location",
+        "$where": "posting_type='External'", "$order": "posting_date DESC", "$limit": 5000})
+    out, seen = [], set()
+    for j in fetch_json(cfg.get("dataset", "https://data.cityofnewyork.us/resource/kpav-sd4t.json") + "?" + q):
+        jid = j.get("job_id")
+        if not jid or jid in seen:
+            continue
+        seen.add(jid)
+        agency = (j.get("agency") or "").title().replace("Nyc", "NYC").replace("Of ", "of ").replace("/", " / ")
+        out.append(job((j.get("business_title") or "").strip(), "NYC " + agency if not agency.startswith("NYC") else agency,
+                       "New York, NY", parse_date(j.get("posting_date")),
+                       f"https://cityjobs.nyc.gov/job/{jid}", "NYC Gov"))
+    if not out:
+        raise RuntimeError("NYC Open Data returned no jobs")
+    return out
+
+
+def remote_scope(text):
+    """Turn a remote board's region text into the allowed-countries list classify_location expects."""
+    t = (text or "").strip()
+    return [] if not t or re.search(r"anywhere|worldwide|global", t, re.I) else [t]
+
+
+def src_weworkremotely(cfg):
+    out = []
+    for feed in cfg["feeds"]:
+        root = fetch_xml(f"https://weworkremotely.com/{feed}.rss")
+        for it in root.iter("item"):
+            raw = html.unescape(it.findtext("title") or "")
+            org, _, title = raw.partition(": ")
+            if not title:
+                org, title = "", raw
+            region = it.findtext("region") or ""
+            o = job(title, org, "Remote (" + (region or "Anywhere") + ")", parse_date(it.findtext("pubDate")),
+                    it.findtext("link"), "We Work Remotely")
+            o["restrictions"] = remote_scope(region)
+            out.append(o)
+    return out
+
+
+def src_workingnomads(cfg):
+    out = []
+    for j in fetch_json("https://www.workingnomads.com/api/exposed_jobs/"):
+        loc = j.get("location") or ""
+        o = job(j.get("title"), j.get("company_name"), "Remote (" + (loc or "Anywhere") + ")",
+                parse_date(j.get("pub_date")), j.get("url"), "Working Nomads")
+        o["restrictions"] = remote_scope(loc)
+        out.append(o)
+    return out
+
+
+def src_jobicy(cfg):
+    out, seen = [], set()
+    for tag in cfg["tags"]:
+        data = fetch_json("https://jobicy.com/api/v2/remote-jobs?count=50&geo=usa&tag=" + urllib.parse.quote(tag))
+        for j in data.get("jobs", []):
+            if j.get("id") in seen:
+                continue
+            seen.add(j.get("id"))
+            geo = html.unescape(j.get("jobGeo") or "")
+            o = job(html.unescape(j.get("jobTitle") or ""), html.unescape(j.get("companyName") or ""),
+                    "Remote (" + (geo or "Anywhere") + ")", parse_date(j.get("pubDate")), j.get("url"), "Jobicy",
+                    text=strip_tags(j.get("jobExcerpt", "")))
+            o["restrictions"] = remote_scope(geo)
+            out.append(o)
+    return out
+
+
 SOURCES = {
     "idealist": ("Idealist", src_idealist),
     "higheredjobs": ("HigherEdJobs", src_higheredjobs),
@@ -492,6 +599,11 @@ SOURCES = {
     "jobvite": ("Jobvite", src_jobvite),
     "pinpoint": ("Pinpoint", src_pinpoint),
     "cuny": ("CUNY", src_cuny),
+    "ashby": ("Ashby", src_ashby),
+    "nycgov": ("NYC Gov", src_nycgov),
+    "weworkremotely": ("We Work Remotely", src_weworkremotely),
+    "workingnomads": ("Working Nomads", src_workingnomads),
+    "jobicy": ("Jobicy", src_jobicy),
 }
 
 
@@ -632,9 +744,9 @@ def main():
     jobs, report = collect(state)
     items = merge(jobs, state)
 
-    print(f"{'source':<14}{'status':<8}{'fetched':>8}{'role':>6}{'in-area':>9}")
+    print(f"{'source':<18}{'status':<8}{'fetched':>8}{'role':>6}{'in-area':>9}")
     for label, status, n, r, loc, err in report:
-        print(f"{label:<14}{status:<8}{n:>8}{r:>6}{loc:>9}" + (f"   {err}" if err else ""))
+        print(f"{label:<18}{status:<8}{n:>8}{r:>6}{loc:>9}" + (f"   {err}" if err else ""))
     print(f"\nFeed items after age filter + dedupe: {len(items)} "
           f"({sum(i['preferred'] for i in items)} preferred, "
           f"{sum(bool(i['also']) for i in items)} merged duplicates)")

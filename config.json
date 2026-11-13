@@ -26,7 +26,9 @@
     "social media producer",
     "social producer",
     "short-form",
-    "reels"
+    "reels",
+    "multimedia designer",
+    "multimedia coordinator"
   ],
   "role_exclude": [
     "video game",
@@ -57,7 +59,8 @@
     "faculty",
     "instructor",
     "lecturer",
-    "nurse"
+    "nurse",
+    "product manager"
   ],
   "nyc_terms": [
     "new york, ny",
@@ -227,6 +230,157 @@
         "gibsondunn": {
           "name": "Gibson Dunn",
           "mission": false
+        },
+        "aclunj": "ACLU of New Jersey",
+        "fwdus": "FWD.us",
+        "candid": "Candid",
+        "clintonfoundation": "Clinton Foundation",
+        "givewell": "GiveWell",
+        "givedirectly": "GiveDirectly",
+        "acumen": "Acumen",
+        "voxmedia": {
+          "name": "Vox Media",
+          "mission": false
+        },
+        "hearst": {
+          "name": "Hearst",
+          "mission": false
+        },
+        "attn": {
+          "name": "ATTN:",
+          "mission": false
+        },
+        "medium": {
+          "name": "Medium",
+          "mission": false
+        },
+        "kickstarter": {
+          "name": "Kickstarter",
+          "mission": false
+        },
+        "crookedmedia": {
+          "name": "Crooked Media",
+          "mission": false
+        },
+        "axios": {
+          "name": "Axios",
+          "mission": false
+        },
+        "semafor": {
+          "name": "Semafor",
+          "mission": false
+        },
+        "insider": {
+          "name": "Business Insider",
+          "mission": false
+        },
+        "forbes": {
+          "name": "Forbes",
+          "mission": false
+        },
+        "newsweek": {
+          "name": "Newsweek",
+          "mission": false
+        },
+        "sbnation": {
+          "name": "SB Nation",
+          "mission": false
+        },
+        "barstoolsports": {
+          "name": "Barstool Sports",
+          "mission": false
+        },
+        "fubotv": {
+          "name": "Fubo",
+          "mission": false
+        },
+        "peloton": {
+          "name": "Peloton",
+          "mission": false
+        },
+        "a24": {
+          "name": "A24",
+          "mission": false
+        },
+        "pinterest": {
+          "name": "Pinterest",
+          "mission": false
+        },
+        "reddit": {
+          "name": "Reddit",
+          "mission": false
+        },
+        "twitch": {
+          "name": "Twitch",
+          "mission": false
+        },
+        "discord": {
+          "name": "Discord",
+          "mission": false
+        },
+        "figma": {
+          "name": "Figma",
+          "mission": false
+        },
+        "descript": {
+          "name": "Descript",
+          "mission": false
+        },
+        "squarespace": {
+          "name": "Squarespace",
+          "mission": false
+        },
+        "datadog": {
+          "name": "Datadog",
+          "mission": false
+        },
+        "fanduel": {
+          "name": "FanDuel",
+          "mission": false
+        },
+        "seatgeek": {
+          "name": "SeatGeek",
+          "mission": false
+        },
+        "harrys": {
+          "name": "Harry's",
+          "mission": false
+        },
+        "glossier": {
+          "name": "Glossier",
+          "mission": false
+        },
+        "calm": {
+          "name": "Calm",
+          "mission": false
+        },
+        "newsela": {
+          "name": "Newsela",
+          "mission": false
+        },
+        "brainpop": {
+          "name": "BrainPOP",
+          "mission": false
+        },
+        "coursera": {
+          "name": "Coursera",
+          "mission": false
+        },
+        "sothebys": {
+          "name": "Sotheby's",
+          "mission": false
+        },
+        "zocdoc": {
+          "name": "Zocdoc",
+          "mission": false
+        },
+        "justworks": {
+          "name": "Justworks",
+          "mission": false
+        },
+        "betterment": {
+          "name": "Betterment",
+          "mission": false
         }
       }
     },
@@ -241,7 +395,21 @@
         "commoncause": "Common Cause",
         "sierraclub": "Sierra Club",
         "girlswhocode": "Girls Who Code",
-        "representus": "RepresentUs"
+        "representus": "RepresentUs",
+        "emilyslist": "EMILYs List",
+        "ashoka": "Ashoka",
+        "spotify": {
+          "name": "Spotify",
+          "mission": false
+        },
+        "theathletic": {
+          "name": "The Athletic",
+          "mission": false
+        },
+        "ro": {
+          "name": "Ro",
+          "mission": false
+        }
       }
     },
     "bamboohr": {
@@ -317,6 +485,68 @@
     "cuny": {
       "enabled": true,
       "sitemap": "https://cuny.jobs/sitemaps/index.xml"
+    },
+    "ashby": {
+      "enabled": true,
+      "boards": {
+        "Tides": "Tides",
+        "patreon": {
+          "name": "Patreon",
+          "mission": false
+        },
+        "substack": {
+          "name": "Substack",
+          "mission": false
+        },
+        "artsy": {
+          "name": "Artsy",
+          "mission": false
+        },
+        "Strava": {
+          "name": "Strava",
+          "mission": false
+        },
+        "whoop": {
+          "name": "WHOOP",
+          "mission": false
+        },
+        "tonal": {
+          "name": "Tonal",
+          "mission": false
+        },
+        "MUBI": {
+          "name": "MUBI",
+          "mission": false
+        },
+        "outschool": {
+          "name": "Outschool",
+          "mission": false
+        }
+      }
+    },
+    "nycgov": {
+      "enabled": true,
+      "dataset": "https://data.cityofnewyork.us/resource/kpav-sd4t.json"
+    },
+    "weworkremotely": {
+      "enabled": true,
+      "feeds": [
+        "remote-jobs",
+        "categories/remote-design-jobs",
+        "categories/all-other-remote-jobs"
+      ]
+    },
+    "workingnomads": {
+      "enabled": true
+    },
+    "jobicy": {
+      "enabled": true,
+      "tags": [
+        "video",
+        "video editor",
+        "motion",
+        "multimedia"
+      ]
     }
   }
 }

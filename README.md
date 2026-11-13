@@ -23,13 +23,15 @@ Feed URL: https://thevoterthink.github.io/video-jobs-feed/feed.xml
 | Idealist | Public NYC and national category pages (HTML) | Main nonprofit board |
 | HigherEdJobs | Official RSS (categories 175, 37, 17) | NYC universities and CUNY |
 | Himalayas | Public JSON API | Remote video roles, US-eligible |
-| Remotive, Remote OK | Public JSON APIs | Remote roles (low yield) |
-| Greenhouse, Lever, BambooHR, Breezy, Pinpoint | Employers' public job-board APIs (JSON) | A watchlist of mission-driven employers, plus Gibson Dunn |
+| Remotive, Remote OK, Jobicy, Working Nomads | Public JSON APIs | Remote roles (low yield) |
+| We Work Remotely | Official RSS feeds | Remote roles (low yield) |
+| NYC Gov | NYC Open Data "Jobs NYC Postings" dataset (JSON) | City agency jobs, which otherwise only show up on LinkedIn. Unstarred. |
+| Greenhouse, Lever, BambooHR, Breezy, Pinpoint, Ashby | Employers' public job-board APIs (JSON) | A watchlist of about 100 employers: mission-driven ones (starred), plus media, tech and consumer companies and Gibson Dunn (unstarred) |
 | Workday | Employers' public Workday search API (JSON) | WNET, plus law firms Skadden, Simpson Thacher, White & Case |
 | Jobvite | Employer's public job list (HTML table) | New York Public Radio (WNYC) |
 | CUNY | cuny.jobs sitemap (title and borough from each job URL) | CUNY postings that HigherEdJobs misses |
 
-Law firm boards carry `"mission": false`, so their jobs show up without a ★.
+Law firm and for-profit boards carry `"mission": false`, so their jobs show up without a ★. If one employer's board stops answering, the run skips it and keeps the rest.
 
 CUNY: robots.txt blocks the cuny.jobs RSS and JSON feeds, so the feed reads the public sitemap instead. Job pages need JavaScript, so CUNY items show "CUNY" as the employer and the first-seen date. The sitemap refreshes every few days, so CUNY jobs can show up late.
 
@@ -38,7 +40,7 @@ Not used: LinkedIn and Indeed (no public API, and they block automated access); 
 ## Changing things (no code needed)
 
 Everything is in `config.json`:
-- **Add an employer:** find its job board. If the address contains `boards.greenhouse.io/<slug>`, `jobs.lever.co/<slug>`, `<slug>.bamboohr.com`, `<slug>.breezy.hr`, `<slug>.pinpointhq.com` or `jobs.jobvite.com/<slug>`, add `"<slug>": "Display Name"` under the matching source. To leave its jobs unstarred, use `"<slug>": {"name": "Display Name", "mission": false}`.
+- **Add an employer:** find its job board. If the address contains `boards.greenhouse.io/<slug>`, `jobs.lever.co/<slug>`, `<slug>.bamboohr.com`, `<slug>.breezy.hr`, `<slug>.pinpointhq.com`, `jobs.ashbyhq.com/<slug>` or `jobs.jobvite.com/<slug>`, add `"<slug>": "Display Name"` under the matching source. To leave its jobs unstarred, use `"<slug>": {"name": "Display Name", "mission": false}`.
 - **Add a Workday employer:** the address looks like `https://<tenant>.wd5.myworkdayjobs.com/<site>`. Add `{"name": "...", "host": "<tenant>.wd5.myworkdayjobs.com", "tenant": "<tenant>", "site": "<site>"}` under `workday.boards`. Small boards can use `"queries": [""]` to read every job.
 - **Widen or narrow roles:** edit `role_include` and `role_exclude`. These are plain phrases matched against job titles.
 - **Hide remote jobs from for-profit companies:** set `"remote_only_if_preferred": true`.

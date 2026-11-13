@@ -36,7 +36,8 @@ SRC_CFG = CONFIG["sources"]
 # Higher number wins when the same job shows up on several sources:
 # the employer's own listing is the best link to keep.
 SOURCE_PRIORITY = {
-    "Greenhouse": 90, "Lever": 90, "BambooHR": 90, "Idealist": 70, "HigherEdJobs": 60,
+    "Greenhouse": 90, "Lever": 90, "BambooHR": 90, "Workday": 90, "Breezy": 90, "Jobvite": 90,
+    "Pinpoint": 90, "Idealist": 70, "HigherEdJobs": 60, "CUNY": 55,
     "Himalayas": 40, "Remotive": 30, "Remote OK": 20,
 }
 
@@ -153,12 +154,16 @@ def parse_date(value):
 _last_hit = {}
 
 
-def fetch(url, accept="*/*"):
+def fetch(url, accept="*/*", data=None):
     host = urllib.parse.urlparse(url).netloc
     wait = 1.0 - (time.time() - _last_hit.get(host, 0))
     if wait > 0:
         time.sleep(wait)  # be polite: at most ~1 request per second per host
-    req = urllib.request.Request(url, headers={"User-Agent": FEED_CFG["user_agent"], "Accept": accept})
+    headers = {"User-Agent": FEED_CFG["user_agent"], "Accept": accept}
+    if data is not None:
+        data = json.dumps(data).encode("utf-8")
+        headers["Content-Type"] = "application/json"
+    req = urllib.request.Request(url, data=data, headers=headers)
     last_err = None
     for attempt in range(3):
         try:
@@ -186,8 +191,16 @@ def fetch_xml(url, tries=3):
     raise RuntimeError(f"{url}: did not return valid XML after {tries} tries")
 
 
-def fetch_json(url):
-    return json.loads(fetch(url, accept="application/json"))
+def fetch_json(url, data=None):
+    return json.loads(fetch(url, accept="application/json", data=data))
+
+
+def board(value):
+    """A watchlist entry is either "Display Name" or {"name": ..., "mission": false, ...}.
+    Watchlist employers are starred unless the entry says "mission": false."""
+    if isinstance(value, str):
+        return value, True, {}
+    return value.get("name", ""), value.get("mission", True), value
 
 
 def job(title, org, location, posted, url, source, text="", mission=False):
@@ -301,18 +314,20 @@ def src_remoteok(cfg):
 
 def src_greenhouse(cfg):
     out = []
-    for slug, name in cfg["boards"].items():
+    for slug, value in cfg["boards"].items():
+        name, mission, _ = board(value)
         data = fetch_json(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs")
         for j in data.get("jobs", []):
             loc = (j.get("location") or {}).get("name", "")
             out.append(job(j.get("title"), name, loc, parse_date(j.get("first_published") or j.get("updated_at")),
-                           j.get("absolute_url"), "Greenhouse", mission=True))
+                           j.get("absolute_url"), "Greenhouse", mission=mission))
     return out
 
 
 def src_lever(cfg):
     out = []
-    for slug, name in cfg["boards"].items():
+    for slug, value in cfg["boards"].items():
+        name, mission, _ = board(value)
         data = fetch_json(f"https://api.lever.co/v0/postings/{slug}?mode=json")
         for j in data if isinstance(data, list) else []:
             cats = j.get("categories") or {}
@@ -323,13 +338,14 @@ def src_lever(cfg):
             if j.get("country") == "US" and loc and not US.search(loc.lower()):
                 loc += ", US"
             out.append(job(j.get("text"), name, loc, parse_date(j.get("createdAt")),
-                           j.get("hostedUrl"), "Lever", mission=True))
+                           j.get("hostedUrl"), "Lever", mission=mission))
     return out
 
 
 def src_bamboohr(cfg):
     out = []
-    for sub, name in cfg["boards"].items():
+    for sub, value in cfg["boards"].items():
+        name, mission, _ = board(value)
         data = fetch_json(f"https://{sub}.bamboohr.com/careers/list")
         for j in data.get("result", []):
             loc = j.get("location") or {}
@@ -337,7 +353,128 @@ def src_bamboohr(cfg):
             if j.get("isRemote"):
                 where = (where + " (remote)").strip()
             out.append(job(j.get("jobOpeningName"), name, where, None,  # BambooHR gives no posting date
-                           f"https://{sub}.bamboohr.com/careers/{j.get('id')}", "BambooHR", mission=True))
+                           f"https://{sub}.bamboohr.com/careers/{j.get('id')}", "BambooHR", mission=mission))
+    return out
+
+
+def workday_posted(text):
+    """Workday says 'Posted Today', 'Posted 3 Days Ago' or 'Posted 30+ Days Ago'."""
+    t = (text or "").lower()
+    if "+" in t:
+        return NOW - timedelta(days=31)  # older than Workday will say; past the feed's age limit
+    return parse_relative(t)
+
+
+def src_workday(cfg):
+    """Workday career sites answer a JSON search at /wday/cxs/<tenant>/<site>/jobs (POST)."""
+    out = []
+    for b in cfg["boards"]:
+        name, mission, _ = board(b)
+        host, tenant, site = b["host"], b["tenant"], b["site"]
+        api = f"https://{host}/wday/cxs/{tenant}/{site}"
+        seen = set()
+        for q in b.get("queries", cfg.get("queries", [""])):
+            offset = 0
+            while offset < 200:
+                data = fetch_json(api + "/jobs", data={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": q})
+                posts = data.get("jobPostings") or []
+                for p in posts:
+                    path = p.get("externalPath") or ""
+                    if not path or path in seen:
+                        continue
+                    seen.add(path)
+                    loc = p.get("locationsText") or ""
+                    if role_ok(p.get("title")) and re.search(r"\d+ locations", loc, re.I):
+                        info = fetch_json(api + path).get("jobPostingInfo", {})
+                        loc = "; ".join([info.get("location") or ""] + (info.get("additionalLocations") or []))
+                    if re.fullmatch(r"new york( city)?", loc.strip(), re.I):
+                        loc = "New York, NY"
+                    if (p.get("remoteType") or "").lower() == "remote":
+                        loc += " (remote)"
+                    out.append(job(p.get("title"), name, loc, workday_posted(p.get("postedOn")),
+                                   f"https://{host}/{site}{path}", "Workday", mission=mission))
+                offset += 20
+                if not posts or offset >= (data.get("total") or 0):
+                    break
+    return out
+
+
+def src_breezy(cfg):
+    out = []
+    for slug, value in cfg["boards"].items():
+        name, mission, _ = board(value)
+        for j in fetch_json(f"https://{slug}.breezy.hr/json"):
+            loc = j.get("location") or {}
+            state = loc.get("state") or {}
+            where = ", ".join(x for x in (loc.get("city"), state.get("id") or state.get("name")) if x)
+            if loc.get("is_remote") or "remote" in (loc.get("name") or "").lower():
+                where = (where + " (remote)").strip()
+            if (loc.get("country") or {}).get("id") == "US" and where and not US.search(where.lower()):
+                where += ", US"
+            out.append(job(j.get("name"), name, where, parse_date(j.get("published_date")),
+                           j.get("url"), "Breezy", mission=mission))
+    return out
+
+
+def src_jobvite(cfg):
+    """Jobvite career pages list jobs in a plain HTML table: title link, then location."""
+    out = []
+    for slug, value in cfg["boards"].items():
+        name, mission, _ = board(value)
+        body = fetch(f"https://jobs.jobvite.com/{slug}/jobs")
+        for row in re.findall(r"(?s)<tr[^>]*>(.*?)</tr>", body):
+            link = re.search(r'href="(/[^"]+/job/[^"]+)"[^>]*>(.*?)</a>', row, re.S)
+            if not link:
+                continue
+            cells = [strip_tags(c) for c in re.findall(r"(?s)<td[^>]*>(.*?)</td>", row)]
+            loc = cells[-1] if len(cells) > 1 else ""
+            out.append(job(link.group(2), name, loc, None,  # Jobvite lists no posting date
+                           "https://jobs.jobvite.com" + link.group(1), "Jobvite", mission=mission))
+    return out
+
+
+def src_pinpoint(cfg):
+    out = []
+    for slug, value in cfg["boards"].items():
+        name, mission, extra = board(value)
+        for p in fetch_json(f"https://{slug}.pinpointhq.com/postings.json").get("data", []):
+            loc = p.get("location") or {}
+            where = ", ".join(x for x in (loc.get("city"), loc.get("province")) if x) or extra.get("default_location", "")
+            if (p.get("workplace_type") or "") == "remote":
+                where = (where + " (remote)").strip()
+            out.append(job(p.get("title"), name, where, None,  # Pinpoint lists no posting date
+                           p.get("url"), "Pinpoint", mission=mission))
+    return out
+
+
+CUNY_JOB = re.compile(r"https://cuny\.jobs/([a-z-]+)-([a-z]{2})/([a-z0-9-]+)/[0-9A-F]{32}/job/")
+
+
+def cuny_job(url):
+    """cuny.jobs/bronx-ny/video-producer/<id>/job/ -> ('Video Producer', 'Bronx, NY')."""
+    m = CUNY_JOB.match(url)
+    if not m:
+        return None, None
+    city = m.group(1).replace("-", " ").title()
+    small, caps = {"and", "of", "the", "for", "or", "in", "to", "at"}, {"cuny", "hr", "it", "av", "tv", "heo", "aheo", "ii", "iii"}
+    words = m.group(3).split("-")
+    title = " ".join(w.upper() if w in caps else w if (w in small and i) else w.capitalize()
+                     for i, w in enumerate(words))
+    return title, f"{city}, {m.group(2).upper()}"
+
+
+def src_cuny(cfg):
+    """cuny.jobs blocks its RSS/JSON feeds in robots.txt but publishes a sitemap for crawlers.
+    The sitemap gives each job's title and city in the URL. Job pages are JS-only, so no date or college."""
+    out = []
+    index = fetch(cfg.get("sitemap", "https://cuny.jobs/sitemaps/index.xml"))
+    for sm in re.findall(r"<loc>(https://cuny\.jobs/sitemaps/jobs_\d+\.xml)</loc>", index):
+        for url in re.findall(r"<loc>([^<]+/job/)</loc>", fetch(sm)):
+            title, loc = cuny_job(url)
+            if title:
+                out.append(job(title, "CUNY", loc, None, url, "CUNY"))
+    if not out:
+        raise RuntimeError("CUNY sitemap returned no jobs (layout may have changed)")
     return out
 
 
@@ -350,6 +487,11 @@ SOURCES = {
     "greenhouse": ("Greenhouse", src_greenhouse),
     "lever": ("Lever", src_lever),
     "bamboohr": ("BambooHR", src_bamboohr),
+    "workday": ("Workday", src_workday),
+    "breezy": ("Breezy", src_breezy),
+    "jobvite": ("Jobvite", src_jobvite),
+    "pinpoint": ("Pinpoint", src_pinpoint),
+    "cuny": ("CUNY", src_cuny),
 }
 
 

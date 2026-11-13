@@ -221,7 +221,13 @@
         "wikimedia": "Wikimedia Foundation",
         "donorschoose": "DonorsChoose",
         "codeforamerica": "Code for America",
-        "evergreenaction": "Evergreen Action"
+        "evergreenaction": "Evergreen Action",
+        "verainstituteofjustice": "Vera Institute of Justice",
+        "amnh": "American Museum of Natural History",
+        "gibsondunn": {
+          "name": "Gibson Dunn",
+          "mission": false
+        }
       }
     },
     "lever": {
@@ -244,6 +250,73 @@
         "nycballet": "New York City Ballet",
         "bricartsmedia": "BRIC Arts Media"
       }
+    },
+    "workday": {
+      "enabled": true,
+      "queries": [
+        "video",
+        "multimedia",
+        "content",
+        "creative"
+      ],
+      "boards": [
+        {
+          "name": "WNET (Thirteen)",
+          "host": "wnet.wd1.myworkdayjobs.com",
+          "tenant": "wnet",
+          "site": "WNETCareers",
+          "queries": [
+            ""
+          ]
+        },
+        {
+          "name": "Skadden",
+          "host": "skadden.wd5.myworkdayjobs.com",
+          "tenant": "skadden",
+          "site": "Skadden_Careers",
+          "mission": false
+        },
+        {
+          "name": "Simpson Thacher",
+          "host": "stblaw.wd1.myworkdayjobs.com",
+          "tenant": "stblaw",
+          "site": "careers",
+          "mission": false
+        },
+        {
+          "name": "White & Case",
+          "host": "whitecase.wd1.myworkdayjobs.com",
+          "tenant": "whitecase",
+          "site": "External",
+          "mission": false
+        }
+      ]
+    },
+    "breezy": {
+      "enabled": true,
+      "boards": {
+        "nyic": "New York Immigration Coalition",
+        "city-report-inc": "THE CITY"
+      }
+    },
+    "jobvite": {
+      "enabled": true,
+      "boards": {
+        "newyork-public-radio": "New York Public Radio (WNYC)"
+      }
+    },
+    "pinpoint": {
+      "enabled": true,
+      "boards": {
+        "nypl": {
+          "name": "New York Public Library",
+          "default_location": "New York, NY"
+        }
+      }
+    },
+    "cuny": {
+      "enabled": true,
+      "sitemap": "https://cuny.jobs/sitemaps/index.xml"
     }
   }
 }

@@ -24,6 +24,25 @@ class Filters(unittest.TestCase):
         self.assertEqual(b.classify_location("Remote", restrictions=["Canada", "United States"]), "Remote (US)")
 
 
+class NewSources(unittest.TestCase):
+    def test_workday_posted(self):
+        self.assertLess(abs((b.workday_posted("Posted Today") - b.NOW).total_seconds()), 5)
+        self.assertEqual((b.NOW - b.workday_posted("Posted 3 Days Ago")).days, 3)
+        self.assertGreater((b.NOW - b.workday_posted("Posted 30+ Days Ago")).days, 30)
+
+    def test_cuny_sitemap_url(self):
+        title, loc = b.cuny_job("https://cuny.jobs/bronx-ny/communications-broadcast-and-multimedia-production-coordinator-aheo/"
+                                "C92C409A11544C40AED6069F8D38D82D/job/")
+        self.assertEqual(title, "Communications Broadcast and Multimedia Production Coordinator AHEO")
+        self.assertEqual(loc, "Bronx, NY")
+        self.assertEqual(b.classify_location(loc), "NYC")
+        self.assertEqual(b.cuny_job("https://cuny.jobs/about/"), (None, None))
+
+    def test_board_entries(self):
+        self.assertEqual(b.board("ACLU")[:2], ("ACLU", True))
+        self.assertEqual(b.board({"name": "Skadden", "mission": False})[:2], ("Skadden", False))
+
+
 class Merge(unittest.TestCase):
     def test_duplicates_collapse_to_best_source(self):
         d = b.NOW - timedelta(days=2)

@@ -24,14 +24,22 @@ Feed URL: https://thevoterthink.github.io/video-jobs-feed/feed.xml
 | HigherEdJobs | Official RSS (categories 175, 37, 17) | NYC universities and CUNY |
 | Himalayas | Public JSON API | Remote video roles, US-eligible |
 | Remotive, Remote OK | Public JSON APIs | Remote roles (low yield) |
-| Greenhouse, Lever, BambooHR | Employers' public job-board APIs | A watchlist of mission-driven employers |
+| Greenhouse, Lever, BambooHR, Breezy, Pinpoint | Employers' public job-board APIs (JSON) | A watchlist of mission-driven employers, plus Gibson Dunn |
+| Workday | Employers' public Workday search API (JSON) | WNET, plus law firms Skadden, Simpson Thacher, White & Case |
+| Jobvite | Employer's public job list (HTML table) | New York Public Radio (WNYC) |
+| CUNY | cuny.jobs sitemap (title and borough from each job URL) | CUNY postings that HigherEdJobs misses |
 
-Not used: LinkedIn and Indeed (no public API, and they block automated access), NYFA, Public Media Jobs and the LMA career center (Cloudflare bot checks), and CUNY's own site (its robots.txt disallows the feed).
+Law firm boards carry `"mission": false`, so their jobs show up without a ★.
+
+CUNY: robots.txt blocks the cuny.jobs RSS and JSON feeds, so the feed reads the public sitemap instead. Job pages need JavaScript, so CUNY items show "CUNY" as the employer and the first-seen date. The sitemap refreshes every few days, so CUNY jobs can show up late.
+
+Not used: LinkedIn and Indeed (no public API, and they block automated access); NYFA and NYSAIS (lists load by JavaScript, no feed); Public Media Jobs, the LMA career center, MoMA and Kirkland & Ellis (Cloudflare bot checks); nypl.org (bot check; NYPL is read from its Pinpoint board instead); Paul Weiss (Taleo), Latham (iCIMS), NYCLU (Paylocity), Legal Aid Society (ADP) and BAM (Paycom), which have no public job API.
 
 ## Changing things (no code needed)
 
 Everything is in `config.json`:
-- **Add an employer:** find its job board. The address will contain `boards.greenhouse.io/<slug>`, `jobs.lever.co/<slug>` or `<slug>.bamboohr.com`. Add `"<slug>": "Display Name"` under the matching source.
+- **Add an employer:** find its job board. If the address contains `boards.greenhouse.io/<slug>`, `jobs.lever.co/<slug>`, `<slug>.bamboohr.com`, `<slug>.breezy.hr`, `<slug>.pinpointhq.com` or `jobs.jobvite.com/<slug>`, add `"<slug>": "Display Name"` under the matching source. To leave its jobs unstarred, use `"<slug>": {"name": "Display Name", "mission": false}`.
+- **Add a Workday employer:** the address looks like `https://<tenant>.wd5.myworkdayjobs.com/<site>`. Add `{"name": "...", "host": "<tenant>.wd5.myworkdayjobs.com", "tenant": "<tenant>", "site": "<site>"}` under `workday.boards`. Small boards can use `"queries": [""]` to read every job.
 - **Widen or narrow roles:** edit `role_include` and `role_exclude`. These are plain phrases matched against job titles.
 - **Hide remote jobs from for-profit companies:** set `"remote_only_if_preferred": true`.
 - **Block a noisy company:** add its name to `exclude_orgs`.

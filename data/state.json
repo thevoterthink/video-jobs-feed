@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "New York, New York, United States",
+   "mission": false,
+   "org": "Business Insider",
+   "posted": "2026-11-13T12:00:00-05:00",
+   "source": "Greenhouse",
+   "title": "Programmer, Streaming & Video Operations",
+   "url": "https://www.businessinsider.com/work-at-business-insider?gh_jid=6261740004",
+   "where": "NYC"
+  },
+  {
    "location": "Remote (USA)",
    "mission": false,
    "org": "Kalshi",
@@ -381,16 +391,6 @@
    "where": "NYC"
   },
   {
-   "location": "New York, NY",
-   "mission": false,
-   "org": "Vox Media",
-   "posted": "2026-10-14T12:00:00-04:00",
-   "source": "Greenhouse",
-   "title": "Assistant Video Editor",
-   "url": "http://boards.greenhouse.io/voxmedia/jobs/8282000?gh_jid=8282000",
-   "where": "NYC"
-  },
-  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "Info Resume Edge",
@@ -585,6 +585,10 @@
   "post production supervisor|vox media": {
    "first_seen": "2026-11-13T12:00:00+00:00",
    "posted": "2026-10-15T12:00:00-04:00"
+  },
+  "programmer streaming and video operations|business insider": {
+   "first_seen": "2026-11-14T12:00:00+00:00",
+   "posted": "2026-11-13T12:00:00-05:00"
   },
   "remote full time videographer boston|brafton": {
    "first_seen": "2026-09-30T12:00:00+00:00",

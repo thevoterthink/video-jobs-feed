@@ -1,6 +1,36 @@
 {
  "items": [
   {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "More Perfect Union Action",
+   "posted": "2026-11-14T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Vertical Video Producer",
+   "url": "https://himalayas.app/companies/more-perfect-union-action/jobs/vertical-video-producer?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Gannett",
+   "posted": "2026-11-14T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video Producer",
+   "url": "https://himalayas.app/companies/gannett/jobs/video-producer?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "USA TODAY",
+   "posted": "2026-11-14T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Video Producer",
+   "url": "https://himalayas.app/companies/usa-today/jobs/video-producer?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
    "location": "New York, New York, United States",
    "mission": false,
    "org": "Business Insider",
@@ -381,16 +411,6 @@
    "where": "Remote (US)"
   },
   {
-   "location": "New York, NY",
-   "mission": false,
-   "org": "Vox Media",
-   "posted": "2026-10-15T12:00:00-04:00",
-   "source": "Greenhouse",
-   "title": "Post Production Supervisor",
-   "url": "http://boards.greenhouse.io/voxmedia/jobs/8281987?gh_jid=8281987",
-   "where": "NYC"
-  },
-  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "Info Resume Edge",
@@ -398,16 +418,6 @@
    "source": "Himalayas",
    "title": "Staff Graphic Designer & Videographer | United States | Remote",
    "url": "https://himalayas.app/companies/info-resume-edge/jobs/staff-graphic-designer-videographer-united-states-remote?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Hindu American Foundation",
-   "posted": "2026-09-23T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Video Content Producer",
-   "url": "https://himalayas.app/companies/hindu-american-foundation/jobs/video-content-producer-6189389039?utm_source=api",
    "where": "Remote (US)"
   },
   {
@@ -698,6 +708,10 @@
    "first_seen": "2026-10-05T12:00:00+00:00",
    "posted": "2026-10-05T12:00:00+00:00"
   },
+  "vertical video producer|more perfect union action": {
+   "first_seen": "2026-11-14T12:00:00+00:00",
+   "posted": "2026-11-14T12:00:00+00:00"
+  },
   "vertical video supervising producer|more perfect union action": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-06T12:00:00+00:00"
@@ -822,9 +836,17 @@
    "first_seen": "2026-10-02T12:00:00+00:00",
    "posted": "2026-10-02T12:00:00+00:00"
   },
+  "video producer|gannett": {
+   "first_seen": "2026-11-14T12:00:00+00:00",
+   "posted": "2026-11-14T12:00:00+00:00"
+  },
   "video producer|hearst": {
    "first_seen": "2026-11-13T12:00:00+00:00",
    "posted": "2026-10-26T12:00:00-04:00"
+  },
+  "video producer|usa today": {
+   "first_seen": "2026-11-14T12:00:00+00:00",
+   "posted": "2026-11-14T12:00:00+00:00"
   },
   "video production manager|new york university": {
    "first_seen": "2026-09-30T12:00:00+00:00",

@@ -191,6 +191,16 @@
    "where": "Remote (US)"
   },
   {
+   "location": "Remote (Virgin Islands, U.S. + 44 other countries)",
+   "mission": false,
+   "org": "TalentCross",
+   "posted": "2026-11-01T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Senior Brand & Motion Designer",
+   "url": "https://himalayas.app/companies/talentcross/jobs/senior-brand-motion-designer?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
    "location": "San Francisco, CA, US; Remote, US",
    "mission": false,
    "org": "Pinterest",
@@ -401,16 +411,6 @@
    "where": "Remote (US)"
   },
   {
-   "location": "Remote (USA, Canada, Ireland or UK only)",
-   "mission": false,
-   "org": "Marker Video",
-   "posted": "2026-10-15T12:00:00-04:00",
-   "source": "Working Nomads",
-   "title": "Video Creator (100% remote)",
-   "url": "https://www.workingnomads.com/job/go/1944774/",
-   "where": "Remote (US)"
-  },
-  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "Info Resume Edge",
@@ -607,6 +607,10 @@
   "remote video editor|flare energy services": {
    "first_seen": "2026-10-25T12:00:00+00:00",
    "posted": "2026-10-25T12:00:00+00:00"
+  },
+  "senior brand and motion designer|talentcross": {
+   "first_seen": "2026-11-15T12:00:00+00:00",
+   "posted": "2026-11-01T12:00:00+00:00"
   },
   "senior creative video|hearst": {
    "first_seen": "2026-11-13T12:00:00+00:00",

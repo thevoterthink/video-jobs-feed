@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "Bronx, NY",
+   "mission": false,
+   "org": "CUNY",
+   "posted": null,
+   "source": "CUNY",
+   "title": "Communications Broadcast Multimedia Production Coordinator AHEO",
+   "url": "https://cuny.jobs/bronx-ny/communications-broadcast-multimedia-production-coordinator-aheo/3A5D1DC7DCC54302A3DA5BDEA7C65E56/job/",
+   "where": "NYC"
+  },
+  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "More Perfect Union Action",
@@ -49,16 +59,6 @@
    "title": "Video Editor",
    "url": "https://jobicy.com/jobs/155198-video-editor",
    "where": "Remote (US)"
-  },
-  {
-   "location": "New York, NY",
-   "mission": false,
-   "org": "CUNY",
-   "posted": null,
-   "source": "CUNY",
-   "title": "Communications Broadcast Multimedia Production Coordinator AHEO Oiacer",
-   "url": "https://cuny.jobs/new-york-ny/communications-broadcast-multimedia-production-coordinator-aheo-oiacer/C92C409A11544C40AED6069F8D38D82D/job/",
-   "where": "NYC"
   },
   {
    "location": "Remote (United States)",
@@ -393,26 +393,6 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "Recom",
-   "posted": "2026-10-16T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Videographer and Video Editor",
-   "url": "https://himalayas.app/companies/recom/jobs/videographer-and-video-editor?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Gannett",
-   "posted": "2026-10-16T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Associate Video Producer",
-   "url": "https://himalayas.app/companies/gannett/jobs/associate-video-producer?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
    "org": "Info Resume Edge",
    "posted": "2026-09-27T12:00:00+00:00",
    "source": "Himalayas",
@@ -486,6 +466,10 @@
   },
   "communications broadcast multimedia production coordinator aheo oiacer|cuny": {
    "first_seen": "2026-11-13T12:00:00+00:00",
+   "posted": null
+  },
+  "communications broadcast multimedia production coordinator aheo|cuny": {
+   "first_seen": "2026-11-15T12:00:00+00:00",
    "posted": null
   },
   "content producer videographer and editor|zillow group": {

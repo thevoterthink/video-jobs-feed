@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "New York, New York",
+   "mission": false,
+   "org": "Vox Media",
+   "posted": "2026-11-16T12:00:00-05:00",
+   "source": "Greenhouse",
+   "title": "Senior Video Producer, Pivot",
+   "url": "http://boards.greenhouse.io/voxmedia/jobs/8379382?gh_jid=8379382",
+   "where": "NYC"
+  },
+  {
    "location": "Bronx, NY",
    "mission": false,
    "org": "CUNY",
@@ -9,6 +19,16 @@
    "title": "Communications Broadcast Multimedia Production Coordinator AHEO",
    "url": "https://cuny.jobs/bronx-ny/communications-broadcast-multimedia-production-coordinator-aheo/3A5D1DC7DCC54302A3DA5BDEA7C65E56/job/",
    "where": "NYC"
+  },
+  {
+   "location": "Remote (anywhere)",
+   "mission": false,
+   "org": "Content Mindset",
+   "posted": "2026-11-15T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "AI Video Editor",
+   "url": "https://himalayas.app/companies/content-mindset/jobs/ai-video-editor?utm_source=api",
+   "where": "Remote (US)"
   },
   {
    "location": "Remote (United States)",
@@ -391,6 +411,16 @@
    "where": "Remote (US)"
   },
   {
+   "location": "Remote (USA, Canada, Ireland and UK ONLY)",
+   "mission": false,
+   "org": "Marker Video",
+   "posted": "2026-10-15T12:00:00-04:00",
+   "source": "Working Nomads",
+   "title": "Video Creator (100% remote)",
+   "url": "https://www.workingnomads.com/job/go/2027058/",
+   "where": "Remote (US)"
+  },
+  {
    "location": "Remote (United States)",
    "mission": false,
    "org": "Info Resume Edge",
@@ -419,6 +449,10 @@
   "ai social video producer|shade room": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-27T12:00:00+00:00"
+  },
+  "ai video editor|content mindset": {
+   "first_seen": "2026-11-16T12:00:00+00:00",
+   "posted": "2026-11-15T12:00:00+00:00"
   },
   "animator video content and ad creatives|fortray global service limited": {
    "first_seen": "2026-10-03T12:00:00+00:00",
@@ -623,6 +657,10 @@
   "senior video editor|datadog": {
    "first_seen": "2026-11-13T12:00:00+00:00",
    "posted": "2026-11-06T12:00:00-05:00"
+  },
+  "senior video producer pivot|vox media": {
+   "first_seen": "2026-11-16T12:00:00+00:00",
+   "posted": "2026-11-16T12:00:00-05:00"
   },
   "senior video producer|intapp": {
    "first_seen": "2026-09-30T12:00:00+00:00",

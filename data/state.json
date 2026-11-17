@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "New York, NY",
+   "mission": false,
+   "org": "Vox Media",
+   "posted": "2026-11-17T12:00:00-05:00",
+   "source": "Greenhouse",
+   "title": "Producer, Vox Video",
+   "url": "http://boards.greenhouse.io/voxmedia/jobs/8396605?gh_jid=8396605",
+   "where": "NYC"
+  },
+  {
    "location": "New York, New York",
    "mission": false,
    "org": "Vox Media",
@@ -286,16 +296,6 @@
    "org": "Hearst",
    "posted": "2026-10-26T12:00:00-04:00",
    "source": "Greenhouse",
-   "title": "Video Producer",
-   "url": "https://job-boards.greenhouse.io/hearst/jobs/4466345009",
-   "where": "NYC"
-  },
-  {
-   "location": "New York, NY, United States",
-   "mission": false,
-   "org": "Hearst",
-   "posted": "2026-10-26T12:00:00-04:00",
-   "source": "Greenhouse",
    "title": "Video & Social Media Manager, Cosmopolitan & Seventeen",
    "url": "https://job-boards.greenhouse.io/hearst/jobs/4466447009",
    "where": "NYC"
@@ -378,26 +378,6 @@
    "source": "Himalayas",
    "title": "Videographer \u2013 Lion Health Lab (Part-Time, Remote)",
    "url": "https://himalayas.app/companies/penn-state-university/jobs/videographer-lion-health-lab-part-time-remote-5874894958?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "BluZinc",
-   "posted": "2026-10-18T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Social Media Specialist Video Editor",
-   "url": "https://himalayas.app/companies/bluzinc/jobs/social-media-specialist-video-editor?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Study.com",
-   "posted": "2026-10-18T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Freelance Social Media Video Host - TikTok (Contract)",
-   "url": "https://himalayas.app/companies/study-com/jobs/freelance-social-media-video-host-tiktok-contract-9127408847?utm_source=api",
    "where": "Remote (US)"
   },
   {
@@ -613,6 +593,10 @@
   "post production supervisor|vox media": {
    "first_seen": "2026-11-13T12:00:00+00:00",
    "posted": "2026-10-15T12:00:00-04:00"
+  },
+  "producer vox video|vox media": {
+   "first_seen": "2026-11-17T12:00:00+00:00",
+   "posted": "2026-11-17T12:00:00-05:00"
   },
   "programmer streaming and video operations|business insider": {
    "first_seen": "2026-11-14T12:00:00+00:00",

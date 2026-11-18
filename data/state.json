@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "HUSH",
+   "posted": "2026-11-18T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Freelance Motion Designer",
+   "url": "https://himalayas.app/companies/hush/jobs/freelance-motion-designer?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
    "location": "New York, NY",
    "mission": false,
    "org": "Vox Media",
@@ -211,16 +221,6 @@
    "where": "Remote (US)"
   },
   {
-   "location": "Remote (Virgin Islands, U.S. + 44 other countries)",
-   "mission": false,
-   "org": "TalentCross",
-   "posted": "2026-11-01T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Senior Brand & Motion Designer",
-   "url": "https://himalayas.app/companies/talentcross/jobs/senior-brand-motion-designer?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
    "location": "San Francisco, CA, US; Remote, US",
    "mission": false,
    "org": "Pinterest",
@@ -371,16 +371,6 @@
    "where": "Remote (US)"
   },
   {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Penn State University",
-   "posted": "2026-10-19T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Videographer \u2013 Lion Health Lab (Part-Time, Remote)",
-   "url": "https://himalayas.app/companies/penn-state-university/jobs/videographer-lion-health-lab-part-time-remote-5874894958?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
    "location": "Remote (USA, Canada, Ireland and UK ONLY)",
    "mission": false,
    "org": "Marker Video",
@@ -517,6 +507,10 @@
   "features multimedia journalist|fdb": {
    "first_seen": "2026-10-26T12:00:00+00:00",
    "posted": "2026-10-25T12:00:00+00:00"
+  },
+  "freelance motion designer|hush": {
+   "first_seen": "2026-11-18T12:00:00+00:00",
+   "posted": "2026-11-18T12:00:00+00:00"
   },
   "freelance social media video host tiktok|study com": {
    "first_seen": "2026-11-11T12:00:00+00:00",

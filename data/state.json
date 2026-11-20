@@ -13,6 +13,16 @@
   {
    "location": "Remote (United States)",
    "mission": false,
+   "org": "NewGen",
+   "posted": "2026-11-19T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Freelance Motion Designer / Animator",
+   "url": "https://himalayas.app/companies/newgen/jobs/freelance-motion-designer-animator?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
    "org": "HUSH",
    "posted": "2026-11-18T12:00:00+00:00",
    "source": "Himalayas",
@@ -198,6 +208,16 @@
    "source": "Greenhouse",
    "title": "Motion Designer, PPM SMB",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=8268342",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Project Management Institute, Inc.",
+   "posted": "2026-11-03T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Creator & Social Video Producer",
+   "url": "https://himalayas.app/companies/project-management-institute-inc/jobs/creator-social-video-producer?utm_source=api",
    "where": "Remote (US)"
   },
   {
@@ -647,6 +667,10 @@
   "features multimedia journalist|fdb": {
    "first_seen": "2026-10-26T12:00:00+00:00",
    "posted": "2026-10-25T12:00:00+00:00"
+  },
+  "freelance motion designer animator|newgen": {
+   "first_seen": "2026-11-20T12:00:00+00:00",
+   "posted": "2026-11-19T12:00:00+00:00"
   },
   "freelance motion designer|hush": {
    "first_seen": "2026-11-18T12:00:00+00:00",

@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "Remote (United States + 23 other countries)",
+   "mission": false,
+   "org": "Lifted (an Upwork Company)",
+   "posted": "2026-11-21T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Videographers, Content Creators, and Filmmakers Needed to Help Train AI Models",
+   "url": "https://himalayas.app/companies/lifted-an-upwork-company/jobs/videographers-content-creators-and-filmmakers-needed-to-help-train-ai-models?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
    "location": "New York, New York, United States",
    "mission": false,
    "org": "Business Insider",
@@ -159,16 +169,6 @@
    "title": "Senior Video Editor",
    "url": "https://careers.datadoghq.com/detail/8350101/?gh_jid=8350101",
    "where": "NYC"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Study.com",
-   "posted": "2026-11-06T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Social Media Video Talent - Education (Contract)",
-   "url": "https://himalayas.app/companies/study-com/jobs/social-media-video-talent-education-contract?utm_source=api",
-   "where": "Remote (US)"
   },
   {
    "location": "Remote (anywhere)",
@@ -508,16 +508,6 @@
    "source": "Himalayas",
    "title": "Video Content Producer",
    "url": "https://himalayas.app/companies/hindu-american-foundation/jobs/video-content-producer-6189389039?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Filmless",
-   "posted": "2026-09-22T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Freelance Video Producer",
-   "url": "https://himalayas.app/companies/filmless/jobs/freelance-video-producer?utm_source=api",
    "where": "Remote (US)"
   },
   {
@@ -1023,6 +1013,10 @@
   "videographer video editor|ck funded": {
    "first_seen": "2026-09-30T12:00:00+00:00",
    "posted": "2026-09-21T12:00:00+00:00"
+  },
+  "videographers content creators and filmmakers needed to help train ai models|lifted": {
+   "first_seen": "2026-11-21T12:00:00+00:00",
+   "posted": "2026-11-21T12:00:00+00:00"
   },
   "videographer|communitas international": {
    "first_seen": "2026-10-20T12:00:00+00:00",

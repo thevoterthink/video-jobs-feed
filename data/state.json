@@ -201,6 +201,16 @@
    "where": "Remote (US)"
   },
   {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Project Management Institute, Inc.",
+   "posted": "2026-11-03T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Creator & Social Video Producer",
+   "url": "https://himalayas.app/companies/project-management-institute-inc/jobs/creator-social-video-producer?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
    "location": "New York, New York, USA",
    "mission": false,
    "org": "Datadog",
@@ -473,21 +483,21 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "Info Resume Edge",
+   "org": "My Amazon Guy",
    "posted": "2026-09-27T12:00:00+00:00",
    "source": "Himalayas",
-   "title": "Staff Graphic Designer & Videographer | United States | Remote",
-   "url": "https://himalayas.app/companies/info-resume-edge/jobs/staff-graphic-designer-videographer-united-states-remote?utm_source=api",
+   "title": "Video Editor",
+   "url": "https://himalayas.app/companies/my-amazon-guy/jobs/video-editor?utm_source=api",
    "where": "Remote (US)"
   },
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "The Shade Room",
+   "org": "Info Resume Edge",
    "posted": "2026-09-27T12:00:00+00:00",
    "source": "Himalayas",
-   "title": "AI Social Video Producer (TEMP)",
-   "url": "https://himalayas.app/companies/the-shade-room/jobs/ai-social-video-producer-temp?utm_source=api",
+   "title": "Staff Graphic Designer & Videographer | United States | Remote",
+   "url": "https://himalayas.app/companies/info-resume-edge/jobs/staff-graphic-designer-videographer-united-states-remote?utm_source=api",
    "where": "Remote (US)"
   },
   {

@@ -483,16 +483,6 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "My Amazon Guy",
-   "posted": "2026-09-27T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Video Editor",
-   "url": "https://himalayas.app/companies/my-amazon-guy/jobs/video-editor?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
    "org": "Info Resume Edge",
    "posted": "2026-09-27T12:00:00+00:00",
    "source": "Himalayas",
@@ -508,6 +498,16 @@
    "source": "Himalayas",
    "title": "Video Content Producer",
    "url": "https://himalayas.app/companies/hindu-american-foundation/jobs/video-content-producer-6189389039?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Filmless",
+   "posted": "2026-09-22T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "Freelance Video Producer",
+   "url": "https://himalayas.app/companies/filmless/jobs/freelance-video-producer?utm_source=api",
    "where": "Remote (US)"
   },
   {

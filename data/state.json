@@ -1,6 +1,26 @@
 {
  "items": [
   {
+   "location": "New York, NY",
+   "mission": false,
+   "org": "Vox Media",
+   "posted": "2026-11-24T12:00:00-05:00",
+   "source": "Greenhouse",
+   "title": "Video Producer, America Actually",
+   "url": "http://boards.greenhouse.io/voxmedia/jobs/8387010?gh_jid=8387010",
+   "where": "NYC"
+  },
+  {
+   "location": "New York, New York, United States",
+   "mission": false,
+   "org": "Business Insider",
+   "posted": "2026-11-24T12:00:00-05:00",
+   "source": "Greenhouse",
+   "title": "Audience Manager, Video",
+   "url": "https://www.businessinsider.com/work-at-business-insider?gh_jid=6261568004",
+   "where": "NYC"
+  },
+  {
    "location": "Remote (United States + 23 other countries)",
    "mission": false,
    "org": "Lifted (an Upwork Company)",
@@ -304,16 +324,6 @@
    "location": "New York, NY, United States",
    "mission": false,
    "org": "Hearst",
-   "posted": "2026-10-27T12:00:00-04:00",
-   "source": "Greenhouse",
-   "title": "Temporary Social Video Editor, Delish",
-   "url": "https://job-boards.greenhouse.io/hearst/jobs/4466370009",
-   "where": "NYC"
-  },
-  {
-   "location": "New York, NY, United States",
-   "mission": false,
-   "org": "Hearst",
    "posted": "2026-10-26T12:00:00-04:00",
    "source": "Greenhouse",
    "title": "Video & Social Media Manager, Cosmopolitan & Seventeen",
@@ -579,6 +589,10 @@
   "associate video producer|gannett": {
    "first_seen": "2026-10-16T12:00:00+00:00",
    "posted": "2026-10-16T12:00:00+00:00"
+  },
+  "audience manager video|business insider": {
+   "first_seen": "2026-11-24T12:00:00+00:00",
+   "posted": "2026-11-24T12:00:00-05:00"
   },
   "bilingual video producer writer director|elsevier": {
    "first_seen": "2026-10-10T12:00:00+00:00",
@@ -963,6 +977,10 @@
   "video multimedia producer|artemis arc": {
    "first_seen": "2026-11-12T12:00:00+00:00",
    "posted": "2026-11-12T12:00:00+00:00"
+  },
+  "video producer america actually|vox media": {
+   "first_seen": "2026-11-24T12:00:00+00:00",
+   "posted": "2026-11-24T12:00:00-05:00"
   },
   "video producer editor performance marketing|first media": {
    "first_seen": "2026-10-29T12:00:00+00:00",

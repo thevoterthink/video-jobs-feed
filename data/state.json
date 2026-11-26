@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "location": "Remote (USA Only)",
+   "mission": false,
+   "org": "Welo Data",
+   "posted": "2026-11-26T12:00:00+00:00",
+   "source": "We Work Remotely",
+   "title": "Crux - Video and Audio QA - English (US)",
+   "url": "https://weworkremotely.com/remote-jobs/welo-data-crux-video-and-audio-qa-english-us",
+   "where": "Remote (US)"
+  },
+  {
    "location": "New York, NY",
    "mission": false,
    "org": "Vox Media",
@@ -241,16 +251,6 @@
    "where": "NYC"
   },
   {
-   "location": "Remote (United States)",
-   "mission": false,
-   "org": "Red Door Collaborative",
-   "posted": "2026-11-01T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Senior Lead Motion Designer",
-   "url": "https://himalayas.app/companies/red-door-collaborative/jobs/senior-lead-motion-designer?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
    "location": "San Francisco, CA, US; Remote, US",
    "mission": false,
    "org": "Pinterest",
@@ -279,16 +279,6 @@
    "title": "Contract Commercial Video & Photo Editor",
    "url": "https://himalayas.app/companies/catface/jobs/contract-commercial-video-photo-editor?utm_source=api",
    "where": "Remote (US)"
-  },
-  {
-   "location": "New York, NY, United States",
-   "mission": false,
-   "org": "Hearst",
-   "posted": "2026-10-27T12:00:00-04:00",
-   "source": "Greenhouse",
-   "title": "Temporary Video Editor, Men's Health and Women's Health",
-   "url": "https://job-boards.greenhouse.io/hearst/jobs/4466183009",
-   "where": "NYC"
   },
   {
    "location": "Remote (United States)",
@@ -589,6 +579,10 @@
   "creator and social video producer|project management institute": {
    "first_seen": "2026-11-03T12:00:00+00:00",
    "posted": "2026-11-03T12:00:00+00:00"
+  },
+  "crux video and audio qa english|welo data": {
+   "first_seen": "2026-11-26T12:00:00+00:00",
+   "posted": "2026-11-26T12:00:00+00:00"
   },
   "director video production|planned parenthood": {
    "first_seen": "2026-09-30T12:00:00+00:00",

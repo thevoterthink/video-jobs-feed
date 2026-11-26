@@ -273,16 +273,6 @@
   {
    "location": "Remote (United States)",
    "mission": false,
-   "org": "aKube Inc",
-   "posted": "2026-10-29T12:00:00+00:00",
-   "source": "Himalayas",
-   "title": "Broadcast Motion Designer- 1648",
-   "url": "https://himalayas.app/companies/akube-inc/jobs/broadcast-motion-designer-1648?utm_source=api",
-   "where": "Remote (US)"
-  },
-  {
-   "location": "Remote (United States)",
-   "mission": false,
    "org": "CatFace",
    "posted": "2026-10-28T12:00:00+00:00",
    "source": "Himalayas",
@@ -488,6 +478,16 @@
    "source": "Himalayas",
    "title": "Motion Designer",
    "url": "https://himalayas.app/companies/active-theory/jobs/motion-designer?utm_source=api",
+   "where": "Remote (US)"
+  },
+  {
+   "location": "Remote (United States)",
+   "mission": false,
+   "org": "Wattpad",
+   "posted": "2026-09-11T12:00:00+00:00",
+   "source": "Himalayas",
+   "title": "[WEBTOON] Social Media Script Writer/Video Editor (Freelancer)",
+   "url": "https://himalayas.app/companies/wattpad/jobs/webtoon-social-media-script-writer-video-editor-freelancer?utm_source=api",
    "where": "Remote (US)"
   },
   {
